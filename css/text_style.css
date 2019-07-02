@@ -1,0 +1,82 @@
+.testimonial-section { 
+  padding: 30px 0px;
+  
+}
+
+.testimonial {
+  margin: 0;
+}
+
+.testimonial .pic {
+   margin-left: 10%;
+    position: relative;
+    width: 100%;
+       max-height: 130px;
+    height: 100%;
+}
+
+.testimonial .pic img {
+     width: 85%;
+    height: auto;
+}
+
+.testimonial .testimonial-content {
+  padding: 10px 50px 10px 0px;
+  display: table;
+}
+
+.testimonial .description {
+  font-size: 17px;
+  color: #011e41;
+  line-height: 26px;
+}
+
+.testimonial .testimonial-title {
+  font-size: 16px;
+  color: #333;
+  text-transform: capitalize;
+  margin: 10px 0px 0 0;
+  float: right;
+}
+
+.testimonial .testimonial-title span {
+  display: block;
+}
+
+.testimonial .post {
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  margin-top: 10px;
+}
+
+.testi-slider .owl-next {
+  position: absolute;
+  right: -60px;
+   background: url(../images/slider-right.png)left top no-repeat;
+  left: auto;
+  top: 25%;
+  height: 36px;
+  text-indent: 99px;
+  width: 38px
+}
+
+.testi-slider .owl-prev {
+  position: absolute;
+  left: -60px;
+  background: url(../images/slider-left.png)left top no-repeat;
+  right: auto;
+  top: 25%;
+  height: 36px;
+  text-indent: -999px;
+  width: 38px
+}
+
+.owl-theme .owl-controls {
+  margin-top: 0;
+}
+
+.videozone {
+  padding: 30px 0px;
+  background: linear-gradient(to right, #e9e7e3, #ffffff);
+}
