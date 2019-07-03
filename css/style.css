@@ -1,754 +1,704 @@
-body { 
-margin: 0;
-
+body {
+	margin: 0;
+	padding: 0;
 }
+
+p { margin:0;}
+a { text-decoration:none}
+li { list-style:none}
 /*Header section Start*/
 .header-section {
-overflow: hidden;
-background-color: #f4f4f4;
-
+	overflow: hidden;
+	background-color: #f4f4f4;
 }
-.logo-section{
-float: left;
-width: 70%;
+.logo-section {
+	float: left;
+	width: 70%;
 }
-.logo-first{
-float: left;
+.logo-first {
+	float: left;
 }
-.logo-first img{
-height: 54px;
+.logo-first img {
+	height: 54px;
 }
-.header-text{
-float: right;
-width: 30%;
-position: relative;
-
+.header-text {
+	float: right;
+	width: 30%;
+	position: relative;
 }
-.ph-no{
-width: 35%;
-float: left;
+.ph-no {
+	width: 35%;
+	float: left;
 }
-.ph-no p{
-padding: 14px;
-margin: 0;
-color: #005b7f;
-font-weight: 600;
-font-size: 17px;
+.ph-no p {
+	padding: 14px;
+	margin: 0;
+	color: #005b7f;
+	font-weight: 600;
+	font-size: 17px;
 }
-.btn-sec{
-width: 65%;
-float: right;
-margin: 0;
-padding: 12px;
+.btn-sec {
+	width: 65%;
+	float: right;
+	margin: 0;
+	padding: 12px;
 }
-.button-auth{
-color: #FFF;
-border: solid 1px #005b7f;
-padding: 3px 12px 5px;
-background: #005b7f;
-text-transform: capitalize;
-font-size: 12px;
-cursor: pointer;
+.button-auth {
+	color: #FFF;
+	border: solid 1px #005b7f;
+	padding: 3px 12px 5px;
+	background: #005b7f;
+	text-transform: capitalize;
+	font-size: 12px;
+	cursor: pointer;
 }
-
 /* first header end*/
 
 
 .topnav {
-overflow: hidden;
-background-color: #666666;
-padding: 0 40px;
+	overflow: hidden;
+	background-color: #666666;
+	padding: 0 40px;
 }
-
 .topnav a {
-float: left;
-display: block;
-color: #f2f2f2;
-text-align: center;
-padding: 3px 50px;
-text-decoration: none;
-font-size: 12px;
-text-transform: uppercase;
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 3px 50px;
+	text-decoration: none;
+	font-size: 12px;
+	text-transform: uppercase;
 }
-
-
 .topnav a:hover {
-  background-color: #005b7f;
-    color: white;
-    text-decoration: none;
+	background-color: #005b7f;
+	color: white;
+	text-decoration: none;
 }
-
 .topnav a.active {
-background-color: #005b7f;
-color: white;
+	background-color: #005b7f;
+	color: white;
 }
-
 .topnav .icon {
-display: none;
+	display: none;
 }
-
-.auth-text h1{
-color: #666666;
-font-size: 17px;
-margin: 0;
-padding: 2px 0;
-
+.auth-text h1 {
+	color: #666666;
+	font-size: 17px;
+	margin: 0;
+	padding: 2px 0;
 }
-.auth-text{
-padding: 2px 40px;
+.auth-text {
+	padding: 2px 40px;
 }
-
 /*banner image start*/
-.banner{
-    height: 472px;
-    padding: 0;
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
+.banner {
+	height: 472px;
+	padding: 0;
+	width: 100%;
+	max-width: 100%;
+	margin: 0;
 }
 .hero-image {
-background-image: url("../images/banner.jpg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-height: 500px;
-width: 100%;
+	background-image: url("../images/banner.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+	width: 100%;
 }
-
 .hero-text {
-height: 100%;
-    padding: 25px;
-    max-height: 500px;
-    min-height: 317px;
-    min-width: 317px;
-    max-width: 415px;
-    width: 100%;
-    z-index: 0;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
-
+	height: 100%;
+	padding: 25px;
+	max-height: 500px;
+	min-height: 317px;
+	min-width: 317px;
+	max-width: 415px;
+	width: 100%;
+	z-index: 0;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
 }
-
-.hero-text h2{
-color: #fff;
-padding-bottom: 20px;
-font-size: 24px;
+.hero-text h2 {
+	color: #fff;
+	padding-bottom: 20px;
+	font-size: 24px;
 }
-.hero-text .order-btn{
-border: solid 1px #FFF;
-background: transparent;
-color: #fff;
-padding: 5px 27px;
-text-transform: uppercase;
-cursor: pointer;
-font-size: 14px;
-
+.hero-text .order-btn {
+	border: solid 1px #FFF;
+	background: transparent;
+	color: #fff;
+	padding: 5px 27px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 14px;
 }
-.hero-text p{
-padding: 25px 0;
-font-size: 23px;
-color: #FFF;
+.hero-text p {
+	padding: 25px 0;
+	font-size: 23px;
+	color: #FFF;
 }
-
-
-.bottom-header{
-position: absolute;
-background: #790000;
-width: 100%;
-bottom: 0px;
+.bottom-header {
+	position: absolute;
+	background: #790000;
+	width: 100%;
+	bottom: 0px;
 }
-
-.bottom-header p{
-color: #ecf0f5;
-margin: 0;
-padding: 6px 80px;
+.slidermar {
+	color: #ecf0f5;
+	margin: 0;
+	padding: 6px 80px;
 }
+.carousel-caption.caption_newslider {    position: absolute;
+    right: 11%;
+    bottom: 20px;
+     left: inherit;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    background: #0000005c;
+    top: 0;
+    width: 300px;}
 /*Header section end*/
 
 /*service section Start*/
 
-.perro-service{
-border-top: solid 2px #005b7f;
-margin-top: 44px;
-position: relative;
-padding: 45px;
+.perro-service {
+	border-top: solid 2px #005b7f;
+	margin-top: 44px;
+	position: relative;
+	padding: 25px 0px;
+}
+.perro-service h3 {
+	text-align: center;
+	border: solid 2px #005b7f;
+	position: absolute;
+	top: -21px;
+	left: 33%;
+	margin: 0 auto;
+	background: #FFF;
+	padding: 0 32px;
+	font-size: 25px;
+	color: #003b4c;
+	text-transform: capitalize;
+	font-family: 'ITCFranklinGothicStd-Med';
+	font-weight: 600;
+}
+.perro-service p {
+	font-family: 'FranklinGothicLTCom-Bk';
+	font-size: 16px;
+	color: #666666;
 }
 
-.perro-service h3{
-text-align: center;
-border: solid 2px #005b7f;
-position: absolute;
-top: -21px;
-left: 33%;
-margin: 0 auto;
-background: #FFF;
-padding: 0 32px;
-font-size: 25px;
-color: #003b4c;
-text-transform: capitalize;
-font-family: 'ITCFranklinGothicStd-Med';
-font-weight: 600;
-}
-.perro-service p{
-font-family: 'FranklinGothicLTCom-Bk';
-font-size: 19px;
-color: #666666;
-}
-.service-text-section{
-width: 70%;
-margin:0 auto;
-
-}
 /*service section end*/
 
 /*ucr-box section Start*/
-.ucr-box-section{
-width:100%;
-display: inline-flex;
-margin-top: 45px;
+.ucr-box-section {
+	width: 100%;
+	display: inline-flex;
+	margin-top: 14px;
 }
-.ucr-box-section .ucr-box{
-border: solid 1px #005b7f;
-width: 18%;
-margin-left: 15px;
+.ucr-box-section .ucr-box {
+	border: solid 1px #005b7f;
+	width: 18%;
+	margin-left: 15px;
 }
-.ucr-box .head{
-border-bottom: solid 1px #005b7f;
-padding: 0;
-margin: 0;
-
+.ucr-box .head {
+	border-bottom: solid 1px #005b7f;
+	padding: 0;
+	margin: 0;
 }
-.ucr-box .head h4{
-color: #cccccc;
-padding: 5px;
-margin: 0;
-text-align: center;
-text-transform: uppercase;
+.ucr-box .head h4 {
+	color: #cccccc;
+	padding: 5px;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
 }
-.ucr-body{
-padding: 15px;
+.ucr-body {
+	padding: 15px;
 }
-.ucr-body p{
-color: #58524c;
-font-size: 11px;
-text-align: left;
+.ucr-body p {
+	color: #58524c;
+	font-size: 12px;
+	text-align: left;
+	margin:0;
 }
 /*ucr-box section end*/
 
 /*truking section start*/
-.truking-section{
-border-top:solid 4px #005b7f;
-border-bottom: solid 4px #005b7f;
-background-color: #f4f4f4;
-width: 100%;
-margin:0 auto;
-padding: 20px 41px;
-overflow: hidden;
+.truking-section {
+	border-top: solid 4px #005b7f;
+	border-bottom: solid 4px #005b7f;
+	background-color: #f4f4f4;
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px 0px;
+	overflow: hidden;
 }
-.truking-section h3{
-font-family: 'ITCFranklinGothicStd-Book';
-color: #185e79;
-text-align: left;
-font-size: 18px;
-}
-.truking-text-section{
-width: 60%;
-float: left;
+.truking-section h3 {
+	font-family: 'ITCFranklinGothicStd-Book';
+	color: #185e79;
+	text-align: left;
+	font-size: 20px;
 }
 
-.truking-text-section p{
-font-size: 13px;
-color: #333333;
-font-family: 'ITCFranklinGothicStd-Book';
+.truking-text-section p {
+	font-size: 13px;
+	color: #333333;
+	font-family: 'ITCFranklinGothicStd-Book';
 }
-.truking-text-section .lern-more{
+.truking-text-section .lern-more {
 color: #FFF;
-font-size: 9px;
-border: solid 1px #b2b2b2;
-background-color: #005b7f;
-padding: 5px 10px;
-text-transform: capitalize;
-background-color: #005b7f;
-font-family: 'FranklinGothicLT-Medium';
-
-}
-.truking-img-section{
-width: 100%;
-max-width: 355px;
-float: right;
-}
-.image-sec{
-background-image: url(../images/truking.jpg);
-width: 380px;
-height: 150px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
+    border: solid 1px #b2b2b2;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    background-color: #005b7f;
+    font-family: 'FranklinGothicLT-Medium';
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 14px 0;
+    display: inline-block;
 }
 
+.truking-section img { width:100%;}
+.truking-section.custom_bg {    background-color: #fff;
+    border-top: 0;
+    border-bottom: 0;}
+	.truking-section.adnew_bg{ background-color:#e4e4e4; border-bottom:none}
 /*truking section end*/
 
 
 /*acquisitions section start*/
 
-.acquisitions-section{
-
-background-color: #FFF;
-width: 100%;
-margin:0 auto;
-padding: 20px 41px;
-overflow: hidden;
+.acquisitions-section {
+	background-color: #FFF;
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px 41px;
+	overflow: hidden;
 }
-
-.acquisitions-section h2{
-font-family: 'ITCFranklinGothicStd-Book';
-color: #185e79;
-text-align: left;
-font-size: 18px;
+.acquisitions-section h2 {
+	font-family: 'ITCFranklinGothicStd-Book';
+	color: #185e79;
+	text-align: left;
+	font-size: 18px;
 }
-.acquisitions-text-section{
-width: 60%;
-float: left;
+.acquisitions-text-section {
+	width: 60%;
+	float: left;
 }
-.acquisitions-text-section h3{
-    font-family: 'ITCFranklinGothicStd-Book';
-    color: #185e79;
-    text-align: left;
-    font-size: 18px;
+.acquisitions-text-section h3 {
+	font-family: 'ITCFranklinGothicStd-Book';
+	color: #185e79;
+	text-align: left;
+	font-size: 18px;
 }
-
-.acquisitions-text-section p{
-font-size: 13px;
-color: #333333;
-font-family: 'ITCFranklinGothicStd-Book';
+.acquisitions-text-section p {
+	font-size: 13px;
+	color: #333333;
+	font-family: 'ITCFranklinGothicStd-Book';
 }
-.acquisitions-text-section .lern-more{
-color: #FFF;
-font-size: 9px;
-border: solid 1px #b2b2b2;
-background-color: #005b7f;
-padding: 5px 10px;
-text-transform: capitalize;
-background-color: #005b7f;
-font-family: 'FranklinGothicLT-Medium';
-cursor: pointer;
-
+.acquisitions-text-section .lern-more {
+	color: #FFF;
+	font-size: 9px;
+	border: solid 1px #b2b2b2;
+	background-color: #005b7f;
+	padding: 5px 10px;
+	text-transform: capitalize;
+	background-color: #005b7f;
+	font-family: 'FranklinGothicLT-Medium';
+	cursor: pointer;
 }
-.acquisitions-img-section{
-width: 100%;
-max-width: 355px;
-float: right;
+.acquisitions-img-section {
+	width: 100%;
+	max-width: 355px;
+	float: right;
 }
-.image-section{
-background-image: url(../images/acquisitions.jpg);
-width: 380px;
-height: 150px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
+.image-section {
+	background-image: url(../images/acquisitions.jpg);
+	width: 380px;
+	height: 150px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 }
-
 /*acquisitions section end*/
 
 
 /*why keller section start*/
 
 
-.keller-section{ 
-border-top:solid 4px #005b7f;
-border-bottom: solid 2px #e7e7e7;
-background-color: #f4f4f4;
-width: 100%;
-margin:0 auto;
-padding: 20px 41px;
-overflow: hidden;
+.keller-section {
+	border-top: solid 4px #005b7f;
+	border-bottom: solid 2px #e7e7e7;
+	background-color: #f4f4f4;
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px 41px;
+	overflow: hidden;
 }
-
-.keller-section h3{
-font-family: 'ITCFranklinGothicStd-Book';
-color: #185e79;
-text-align: left;
-font-size: 18px;
+.keller-section h3 {
+	font-family: 'ITCFranklinGothicStd-Book';
+	color: #185e79;
+	text-align: left;
+	font-size: 18px;
 }
-.keller-text-section{
-width: 60%;
-float: left;
+.keller-text-section {
+	width: 60%;
+	float: left;
 }
-
-.keller-text-section p{
-font-size: 13px;
-color: #333333;
-font-family: 'ITCFranklinGothicStd-Book';
+.keller-text-section p {
+	font-size: 13px;
+	color: #333333;
+	font-family: 'ITCFranklinGothicStd-Book';
 }
-.keller-text-section .lern-more{
-color: #FFF;
-font-size: 9px;
-border: solid 1px #b2b2b2;
-background-color: #005b7f;
-padding: 5px 10px;
-text-transform: capitalize;
-background-color: #005b7f;
-font-family: 'FranklinGothicLT-Medium';
-cursor: pointer;
-
+.keller-text-section .lern-more {
+	color: #FFF;
+	font-size: 9px;
+	border: solid 1px #b2b2b2;
+	background-color: #005b7f;
+	padding: 5px 10px;
+	text-transform: capitalize;
+	background-color: #005b7f;
+	font-family: 'FranklinGothicLT-Medium';
+	cursor: pointer;
 }
-.keller-img-section{
-width: 100%;
-max-width: 355px;
-float: right;
+.keller-img-section {
+	width: 100%;
+	max-width: 355px;
+	float: right;
 }
-.image-section{
-background-image: url(../images/acquisitions.jpg);
-width: 380px;
-height: 150px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
+.image-section {
+	background-image: url(../images/acquisitions.jpg);
+	width: 380px;
+	height: 150px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 }
-
-
-.temporary-section{
-background-color: #f6f6f6;
-margin:0 auto;
-padding: 30px 10px;
-overflow: hidden;
-width: 100%;
-
+.temporary-section {
+	background-color: #f6f6f6;
+	margin: 0 auto;
+	padding: 30px 0px;
+	overflow: hidden;
+	width: 100%;
 }
-.temp-img-section{
-float: left;
-padding: 0 20px;
+.temp-img-section {
 }
-
-.temporary-text-section{
-width: 40%;
-float: left;
+.temporary-text-section {
+	width: 40%;
+	float: left;
 }
-
 .temporary-text-section h3 {
-font-family: 'ITCFranklinGothicStd-Book';
-color: #185e79;
-text-align: left;
-font-size: 18px;
+	font-family: 'ITCFranklinGothicStd-Book';
+	color: #185e79;
+	text-align: left;
+	font-size: 18px;
 }
 .temporary-text-section p {
-font-size: 14px;
-font-family: 'FranklinGothicLTCom-Bk';
-color: #005b7f;
+	font-size: 14px;
+	font-family: 'FranklinGothicLTCom-Bk';
+	color: #005b7f;
 }
-.temporary-no-section{
-width: 45%;
-float: right;
-text-align: center;
+.temporary-no-section {
+	width: 45%;
+	float: right;
+	text-align: center;
 }
-
-.temporary-no-section h3{
-font-family: 'FranklinGothicLTCom-Bk';
-font-size: 24px;
-color: #116383;
+.temporary-no-section h3 {
+	font-family: 'FranklinGothicLTCom-Bk';
+	font-size: 24px;
+	color: #116383;
 }
-.temporary-no-section .order-now{
-color: #005b7f;
-font-size: 9px;
-background-color: #fdc140;
-padding: 5px 20px;
-text-transform: capitalize;
-font-family: 'ITCFranklinGothicStd-DmCd';
-cursor: pointer;
-border:none;
+.temporary-no-section .order-now {
+    color: #005b7f;
+    background-color: #fdc140;
+    padding: 7px 35px;
+    text-transform: capitalize;
+    font-family: 'ITCFranklinGothicStd-DmCd';
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    display: inline-block;
+    margin: 10px 0 0;
 }
-.video-section{
-    height: 200px;
-    width: 350px;
+.video-section {
+	height: 200px;
+	width: 350px;
 }
-
-
 /*why keller section End*/
 
 
 
 /*Topic page statr*/
 .banner-topic {
-    height: 465px;
-    padding: 0;
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
+	height: 465px;
+	padding: 0;
+	width: 100%;
+	max-width: 100%;
+	margin: 0;
 }
 .topic-banner {
-background-image: url("../images/topic-img.jpg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-height: 500px;
-width: 100%;
+	background-image: url("../images/topic-img.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+	width: 100%;
 }
-.hero-text-topic{
-height: 100%;
-padding: 51px;
-width: 100%;
-z-index: 0;
-
+.hero-text-topic {
+	height: 100%;
+	padding: 51px;
+	width: 100%;
+	z-index: 0;
 }
 .hero-text-topic h2 {
-color: #fff;
-padding-bottom: 20px;
-font-size: 24px;
+	color: #fff;
+	padding-bottom: 20px;
+	font-size: 24px;
 }
 .hero-text-topic .order-btn {
-border: solid 1px #FFF;
-background: transparent;
-color: #fff;
-padding: 4px 10px;
-text-transform: uppercase;
-cursor: pointer;
-font-size: 14px;
-font-weight: 500;
+	border: solid 1px #FFF;
+	background: transparent;
+	color: #fff;
+	padding: 4px 10px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 500;
 }
-
 .hero-text-topic p {
-padding: 25px 0;
-font-size: 23px;
-color: #FFF;
+	padding: 25px 0;
+	font-size: 23px;
+	color: #FFF;
 }
 .contant-section {
-padding: 30px;
-background-image: linear-gradient(#ccdee5, #FFF);
+	padding: 30px;
+	background-image: linear-gradient(#ccdee5, #FFF);
 }
-.text-first-section h2{
-font-size: 17px;
-font-family: 'ITCFranklinGothicStd-Book';
-color: #005b7f;
-font-weight: 500;
-
+.text-first-section h2 {
+	font-size: 17px;
+	font-family: 'ITCFranklinGothicStd-Book';
+	color: #005b7f;
+	font-weight: 500;
 }
-.text-first-section p{
-color: #333333;
-font-size: 13px;
-
+.text-first-section p {
+	color: #333333;
+	font-size: 13px;
 }
-.news-section{
-border: solid 1px #a9afb2;
+.news-section {
+	border: solid 1px #a9afb2;
 }
-.news-section .header-news{
-
-background-color: #c1d7e0;
+.news-section .header-news {
+	background-color: #c1d7e0;
 }
-.header-news h3{
-padding: 10px;
-font-size: 17px;
-color: #326f87;
-font-family: 'ITCFranklinGothicStd-Book';
-margin:0;
+.header-news h3 {
+	padding: 10px;
+	font-size: 17px;
+	color: #326f87;
+	font-family: 'ITCFranklinGothicStd-Book';
+	margin: 0;
 }
-.body-news{
-padding: 10px 0;
-background-color: #FFF;
+.body-news {
+	padding: 10px 0;
+	background-color: #FFF;
 }
-.body-news ul{
-margin: 0;
-padding: 0 28px;
+.body-news ul {
+	margin: 0;
+	padding: 0 28px;
 }
-.body-news ul li{
-font-family: 'ITCFranklinGothicStd-Book';
-font-size: 13px;
-color: #333333;
+.body-news ul li {
+	font-family: 'ITCFranklinGothicStd-Book';
+	font-size: 13px;
+	color: #333333;
 }
-
-
-.resources-section{
-border: solid 1px #a9afb2;
-margin-top: 2px;
-
+.resources-section {
+	border: solid 1px #a9afb2;
+	margin-top: 2px;
 }
-.resources-section .header-resources{
-
-background-color: #c1d7e0;
+.resources-section .header-resources {
+	background-color: #c1d7e0;
 }
-.header-resources h3{
-padding: 10px;
-font-size: 17px;
-color: #326f87;
-font-family: 'ITCFranklinGothicStd-Book';
-margin:0;
+.header-resources h3 {
+	padding: 10px;
+	font-size: 17px;
+	color: #326f87;
+	font-family: 'ITCFranklinGothicStd-Book';
+	margin: 0;
 }
-.body-resources{
-padding: 10px 0;
-background-color: #FFF;
-overflow: hidden;
+.body-resources {
+	padding: 10px 0;
+	background-color: #FFF;
+	overflow: hidden;
 }
-.body-resources ul{
-margin: 0;
-padding: 0 28px;
+.body-resources ul {
+	margin: 0;
+	padding: 0 28px;
 }
-.body-resources ul li{
-font-family: 'ITCFranklinGothicStd-Book';
-font-size: 13px;
-color: #333333;
+.body-resources ul li {
+	font-family: 'ITCFranklinGothicStd-Book';
+	font-size: 13px;
+	color: #333333;
 }
 .resources-section .learn-more {
-color: #FFF;
-font-size: 9px;
-border: solid 1px #005b7f;
-background-color: #005b7f;
-padding: 5px 10px;
-text-transform: capitalize;
-font-family: 'FranklinGothicLT-Medium';
+	color: #FFF;
+	font-size: 9px;
+	border: solid 1px #005b7f;
+	background-color: #005b7f;
+	padding: 5px 10px;
+	text-transform: capitalize;
+	font-family: 'FranklinGothicLT-Medium';
 }
 .topic-sec {
-background-image: url(../images/topic-cr.png);
-width: 100%;
-height: 124px;
-background-repeat: no-repeat;
+	background-image: url(../images/topic-cr.png);
+	width: 100%;
+	height: 124px;
+	background-repeat: no-repeat;
+	background-position: center;
 }
-
-.acquisitions-text-section ul{ list-style-type: none;
-margin: 0;
-padding: 0 5px;
-
+.acquisitions-text-section ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 5px;
 }
-.acquisitions-text-section ul li{ 
-background-image: url(../images/list-icon.png);     
-background-repeat: no-repeat;
-font-size: 12px;
-color: #011e41;
-background-position-y: 8px;
-line-height: 22px;
-padding: 5px 24px;
+.acquisitions-text-section ul li {
+	background-image: url(../images/list-icon.png);
+	background-repeat: no-repeat;
+	font-size: 12px;
+	color: #011e41;
+	background-position-y: 8px;
+	line-height: 22px;
+	padding: 5px 24px;
 }
-.border-faq{
-border-top:solid 4px #005b7f;
+.border-faq {
+	border-top: solid 4px #005b7f;
 }
 .border-faq p {
-font-size: 12px;
-font-family: 'ITCFranklinGothicStd-Med';
-color: #011e41;
+	font-size: 12px;
+	font-family: 'ITCFranklinGothicStd-Med';
+	color: #011e41;
 }
 .border-faq .order-now {
-background-color: #aadaf1;
+	background-color: #aadaf1;
 }
-
 /*Testimonial Start */
 .item {
-background: #FFF;
-text-align: center;
-height: 300px;
+	background: #FFF;
+	text-align: center;
+	height: 300px;
 }
-
 .item h2 {
-margin: 0;
-color: #888;
-padding-top: 80px;
-font-size: 30px;
+	margin: 0;
+	color: #888;
+	padding-top: 80px;
+	font-size: 30px;
 }
 /*Testimonial end */
 
 /*add or video start*/
-.video-add-zone{
-background:#f7f7f7;
-padding: 20px;
+.video-add-zone {
+	background: #f7f7f7;
+	padding: 20px;
 }
 .video-add-zone h2 {
-font-family: 'ITCFranklinGothicStd-Book';
-color: #185e79;
-text-align: left;
-font-size: 18px;
+	font-family: 'ITCFranklinGothicStd-Book';
+	color: #185e79;
+	text-align: left;
+	font-size: 18px;
 }
 .video-add-zone p {
-font-size: 13px;
-color: #333333;
-font-family: 'ITCFranklinGothicStd-Book';
+	font-size: 13px;
+	color: #333333;
+	font-family: 'ITCFranklinGothicStd-Book';
 }
-.border-both{
-border-top: solid 4px #005b7f;
-border-bottom:  solid 4px #005b7f;
+.border-both {
+	border-top: solid 4px #005b7f;
+	border-bottom: solid 4px #005b7f;
 }
 /*add or video end*/
 
 /*Topic page end*/
 
 /*Faq Page start*/
-.faq-head-section{
-       background-color: #fff;
-    padding: 20px 0px 60px;
-
+.faq-head-section {
+	background-color: #fff;
+	padding: 20px 0px 60px;
 }
-.faq-img-section{
-       height: 400px;
-    width: 100%;
+.faq-img-section {
+	height: 400px;
+	width: 100%;
 }
-.faq-img-section img{
-    height: 100%;
-    width: 100%;
+.faq-img-section img {
+	height: 100%;
+	width: 100%;
 }
-.faq-txt-section{
-background-color: #d5e2e8;
-    padding: 30px;
-    height: auto;
-    height: 100%;
-     max-height: 400px;
-         position: relative;
+.faq-txt-section {
+	background-color: #d5e2e8;
+	padding: 30px;
+	height: auto;
+	height: 100%;
+	max-height: 400px;
+	position: relative;
 }
-.faq-txt-section h2{
-font-size: 20px;
-font-family: 'FranklinGothicLTCom-Bk';
-color: #005b7f;
-font-weight: 500;
-border-bottom:solid 3px #005b7f;
-    text-align: center;
-    padding: 6px;
-
+.faq-txt-section h2 {
+	font-size: 20px;
+	font-family: 'FranklinGothicLTCom-Bk';
+	color: #005b7f;
+	font-weight: 500;
+	border-bottom: solid 3px #005b7f;
+	text-align: center;
+	padding: 6px;
 }
-.faq-txt-section p{
-    color: #272425;
-    font-size: 17px;
-    text-align: center;
-    font-family: 'ITCFranklinGothicStd-Book';
+.faq-txt-section p {
+	color: #272425;
+	font-size: 17px;
+	text-align: center;
+	font-family: 'ITCFranklinGothicStd-Book';
 }
-.more-info{
-    width:100%;
+.more-info {
+	width: 100%;
 }
-.image-icon{
-    position: absolute;
-    right: -24px;
-    z-index: 9999;
-    bottom: -29px;
+.image-icon {
+	position: absolute;
+	right: -24px;
+	z-index: 9999;
+	bottom: -29px;
 }
-.testimonial-content-section{
-        background-color: #cad8dd;
-    padding: 10px;
-    overflow: hidden;
-
+.testimonial-content-section {
+	background-color: #cad8dd;
+	padding: 10px;
+	overflow: hidden;
 }
-.testimonial-content-section h5{
-    color:#666666;
-    font-size: 14px;
-    font-family: 'FranklinGothicLTCom-Bk';
+.testimonial-content-section h5 {
+	color: #666666;
+	font-size: 14px;
+	font-family: 'FranklinGothicLTCom-Bk';
 }
-.testimonial-content-section .img-section{
-       width: 100%;
-    text-align: center;
-    height: 95px;
+.testimonial-content-section .img-section {
+	width: 100%;
+	text-align: center;
+	height: 95px;
 }
 .testimonial-content-section .down-img-section {
-    text-align: center; 
-    height: 32px;
-    border-top: solid 2px #005b7f;
-    margin: 0 auto;
-    padding: 2px;
-    width: 30px;
-
+	text-align: center;
+	height: 32px;
+	border-top: solid 2px #005b7f;
+	margin: 0 auto;
+	padding: 2px;
+	width: 30px;
 }
-.slide-border-bottom{
-        border-bottom: solid 4px #005b7f;
+.slide-border-bottom {
+	border-bottom: solid 4px #005b7f;
 }
-.qustion-bg{
-    background-color: #f6f6f6;
+.qustion-bg {
+	background-color: #f6f6f6;
 }
 /*Faq page end*/
 
@@ -759,151 +709,88 @@ border-bottom:solid 3px #005b7f;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*footer*/
-footer{
-margin:0 auto;
-overflow: hidden;
-width: 100%;
-
+footer {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 100%;
 }
-.footer-head{
-background-color: #666666;
-width: 100%;
+.footer-head {
+	background-color: #666666;
+	width: 100%; padding:7px 0;
 }
-.footer-head ul{
-list-style-type: none;
-margin: 0;
-padding: 0px 0px 7px 0px;
-
+.footer-head ul { padding:0; margin:0;
 }
-.footer-head ul li{
-display: inline;
-font-size: 8px;
+.footer-head ul li {
+    display: inline-block;
+    font-size: 14px;
+    color: #FFF;
+    font-family: 'ITCFranklinGothicStd-Book';
+    margin-right: 39px;
+}
+.footer-body {
+	background-color: #d2d2d2;
+}
+.footer-text-section {
+	padding: 30px 0px;
+}
+.footer-text-section p {
+	font-size: 12px;
+	color: #000000;
+}
+.footer-text-section .vist {
 color: #FFF;
-font-family: 'ITCFranklinGothicStd-Book';
-margin-left: 15px;
+    font-size: 14px;
+    background-color: #8b1e42;
+    padding: 6px 22px;
+    text-transform: capitalize;
+    font-family: 'ITCFranklinGothicStd-Book';
+    cursor: pointer;
+    border: 1px solid #b17e8f;
+    display: inline-block;
+    margin: 15px 0 0;
 }
-.footer-body{
-background-color: #d2d2d2;
+.footer-logo {
+	padding: 32px 60px;
+	width: 100%;
+	text-align: right;
 }
-
-.footer-text-section{
-padding: 30px;}
-.footer-text-section p{
-font-size: 12px;
-color: #000000;
+.footer-logo-txt p {
+	font-family: 'ITCFranklinGothicStd-Book';
+	color: #000;
+	font-size: 12px;
+	text-align: right;
+	padding-right: 56px;
 }
-
-.footer-text-section .vist{
-color: #FFF;
-font-size: 9px;
-background-color: #8b1e42;
-padding: 5px 20px;
-text-transform: capitalize;
-font-family: 'ITCFranklinGothicStd-Book';
-cursor: pointer;
-border:1px solid #b17e8f;
-}
-.footer-logo{
-padding: 32px 60px;
-width: 100%;
-text-align: right;
-}
-
-.footer-logo-txt p{
-font-family: 'ITCFranklinGothicStd-Book';
-color: #000;
-font-size: 12px;
-text-align: right;
-padding-right: 56px;
-}
-
-
-
-
 .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: 10.5rem;
-    padding-left: 3.5rem;
+    padding: 10px 81px;
 }
-
 .nav-link {
-     display: block;
-    padding: 7px 31px;
-    text-transform: uppercase;
-    font-size: 12px;
+	display: block;
+	padding: 7px 31px;
+	text-transform: uppercase;
+	font-size: 12px;
 }
-
 .navbar-dark .navbar-nav .nav-link {
-      color: #f2f2f2;
+	color: #f2f2f2;
 }
 .bg-dark {
-    background-color: #666666!important;
+	background-color: #666666!important;
 }
-.navbar { padding: 0; }
-.navbar-dark.custome_nav .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{
-background-color: #005b7f; color: #fff;    
+.navbar {
+	padding: 0;
 }
-
-.mobile_no { color: #fff; font-size: 12px; display: none; }
+.navbar-dark.custome_nav .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+	background-color: #005b7f;
+	color: #fff;
+}
+.mobile_no {
+	color: #fff;
+	font-size: 12px;
+	display: none;
+}
 .navbar-dark .navbar-toggler {
-    color: #FFF;
-    border-color:unset;
-    border:none;
+	color: #FFF;
+	border-color: unset;
+	border: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

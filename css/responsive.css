@@ -14,10 +14,14 @@
 } 
 
 	.logo-sec{
-	    width: 200px;
+	    width: 185px;
     float: right;
     margin-top: 11px;
 	}
+  .logo-sec img{
+    max-width: 185px;
+    width: 100%
+  }
 	.btn-sec{
     margin: 0;
     position: absolute;
@@ -178,6 +182,10 @@ padding: 20px 8px;
   .pic{
     display: none;
   }
+  .footer-head ul li {
+    font-size: 11px;
+  }
+
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px)  {
