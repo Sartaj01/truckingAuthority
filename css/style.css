@@ -64,7 +64,7 @@ li { list-style:none}
 
 
 .topnav {
-	padding: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 20px;
 }
 
 .authority-txt {
@@ -82,17 +82,18 @@ li { list-style:none}
 .main-heading {
 	    color: #fff;
     padding-bottom: 20px;
-    font-size: 24px;
-    height: 290px;
+    font-size: 30px;
+    max-height: 280px;
     overflow: hidden;
     margin-bottom: 13px;
         text-align: left;
+        text-transform: capitalize;
 }
 .order-btn {
 	border: solid 1px #FFF;
 	background: transparent;
 	color: #fff;
-	padding: 5px 27px;
+	padding: 10px 27px;
 	text-transform: uppercase;
 	cursor: pointer;
 	font-size: 14px;
@@ -124,9 +125,9 @@ li { list-style:none}
     bottom: 20px;
     left: inherit;
     z-index: 10;
-    padding: 20px;
+    padding: 20px 40px;
     color: #fff;
-    text-align: center;
+    text-align: left;
     background: #0000005c;
     top: 0;
     width: 407px;
@@ -161,7 +162,7 @@ li { list-style:none}
 	position: relative;
 	padding: 25px 0px;
 }
-.perro-service h3 {
+.perro-service-heading {
 	text-align: center;
 	border: solid 2px #005b7f;
 	position: absolute;
@@ -206,6 +207,7 @@ li { list-style:none}
 	margin: 0;
 	text-align: center;
 	text-transform: uppercase;
+	overflow: hidden;
 }
 .ucr-body {
 	padding: 15px;
@@ -225,18 +227,18 @@ li { list-style:none}
 	background-color: #f4f4f4;
 	width: 100%;
 	margin: 0 auto;
-	padding: 20px 20px 20px 80px;
+	 padding: 20px 20px 20px 120px;
 	overflow: hidden;
 }
-.truking-section h3 {
+.truking-heading{
 	font-family: 'ITCFranklinGothicStd-Book';
 	color: #185e79;
 	text-align: left;
 	font-size: 20px;
 }
 
-.truking-text-section p {
-	font-size: 13px;
+.truking-p-txt {
+	font-size: 16px;
 	color: #333333;
 	font-family: 'ITCFranklinGothicStd-Book';
 }
@@ -708,7 +710,7 @@ footer {
 .footer-head {
 	background-color: #666666;
 	width: 100%;
-	padding: 4px 0px 7px 44px;
+	padding: 4px 0px 7px 118px;
 }
 .footer-head ul { padding:0; margin:0;
 }
@@ -721,7 +723,7 @@ footer {
 }
 .footer-body {
 	background-color: #d2d2d2;
-	padding: 20px 20px 20px 44px;
+	    padding: 20px 20px 20px 126px;
 }
 .footer-text-section {
 	padding: 30px 0px;
@@ -755,7 +757,7 @@ color: #FFF;
 	padding-right: 56px;
 }
 .navbar-expand-md .navbar-nav .nav-link {
-    padding: 10px 111px;
+        padding: 10px 90px;
 }
 .nav-link {
 	display: block;
@@ -786,3 +788,7 @@ color: #FFF;
 	border-color: unset;
 	border: none;
 }
+#nav-toggle-button{
+    background-color:red;
+}
+
