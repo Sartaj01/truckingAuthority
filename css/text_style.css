@@ -1,6 +1,5 @@
-.testimonial-section { 
-  padding: 30px 0px;
-  
+.testimonial-section {
+      padding: 25px 25px 29px 85px;
 }
 
 .testimonial {
@@ -52,7 +51,7 @@
 
 .testi-slider .owl-next {
   position: absolute;
-  right: -60px;
+  right: -20px;
    background: url(../images/slider-right.png)left top no-repeat;
   left: auto;
   top: 25%;
@@ -63,7 +62,7 @@
 
 .testi-slider .owl-prev {
   position: absolute;
-  left: -60px;
+      left: -70px;
   background: url(../images/slider-left.png)left top no-repeat;
   right: auto;
   top: 25%;

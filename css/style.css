@@ -68,11 +68,11 @@ li { list-style:none}
 }
 
 .authority-txt {
-    color: #666666;
+     color: #011e41;
     font-size: 23px;
     margin: 0;
-    padding: 2px 0;
-        font-weight: 600;
+    padding: 6px 0;
+    font-family: 'FranklinGothicLTCom-Bk';
 }
 .auth-text {
 	       padding: 3px 0px 3px 111px;
@@ -193,9 +193,10 @@ li { list-style:none}
 
 /*ucr-box section Start*/
 .ucr-box-section {
-	width: 100%;
-	display: inline-flex;
-	margin-top: 14px;
+	    width: 95%;
+    display: inline-block;
+    margin-top: 14px;
+    margin: 0 auto;
 }
 .ucr-box-section .ucr-box {
 	border: solid 1px #005b7f;
@@ -279,14 +280,36 @@ color: #FFF;
 	background-color: #FFF;
 	width: 100%;
 	margin: 0 auto;
-	padding: 20px 41px;
+	    padding: 25px 25px 29px 85px;
 	overflow: hidden;
 }
-.acquisitions-section h2 {
+.faq-btn-section{
+	padding-top: 10px;
+	    width: 80%;
+}
+.btn-downloade {
+    color: #005b7f;
+    background-color: #aadaf1;
+    padding: 7px 35px;
+    text-transform: capitalize;
+    font-family: 'ITCFranklinGothicStd-DmCd';
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    display: inline-block;
+    margin: 10px 0 0;
+}
+
+.acquisitions-section-heading {
 	font-family: 'ITCFranklinGothicStd-Book';
 	color: #185e79;
 	text-align: left;
 	font-size: 18px;
+}
+.acquisitions-p-txt {
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 25px;
 }
 .acquisitions-text-section {
 	width: 60%;
@@ -319,14 +342,11 @@ color: #FFF;
 	max-width: 355px;
 	float: right;
 }
-.image-section {
-	background-image: url(../images/acquisitions.jpg);
-	width: 380px;
-	height: 150px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
+.truking-img-section img{
+width: 100%
+}
+.truking-img-section{
+	    padding: 0 69px 13px 2px;
 }
 /*acquisitions section end*/
 
@@ -374,15 +394,7 @@ color: #FFF;
 	max-width: 355px;
 	float: right;
 }
-.image-section {
-	background-image: url(../images/acquisitions.jpg);
-	width: 380px;
-	height: 150px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-}
+
 .temporary-section {
 	background-color: #eeeeee;
 	margin: 0 auto;
@@ -396,6 +408,9 @@ color: #FFF;
 .temp-img-section img{
 	position: absolute;
     left: -2px;
+}
+.temp-img img{
+	left: -42px;
 }
 .temporary-text-section {
 	width: 40%;
@@ -572,7 +587,7 @@ color: #FFF;
 .acquisitions-text-section ul {
 	list-style-type: none;
 	margin: 0;
-	padding: 0 5px;
+	padding: 0;
 }
 .acquisitions-text-section ul li {
 	background-image: url(../images/list-icon.png);
@@ -611,7 +626,7 @@ color: #FFF;
 /*add or video start*/
 .video-add-zone {
 	background: #f7f7f7;
-	padding: 20px;
+	    padding: 25px 25px 29px 85px;
 }
 .video-add-zone h2 {
 	font-family: 'ITCFranklinGothicStd-Book';
@@ -628,6 +643,9 @@ color: #FFF;
 	border-top: solid 4px #005b7f;
 	border-bottom: solid 4px #005b7f;
 }
+.border-blue-bottom {
+	border-bottom: solid 4px #005b7f;
+}
 /*add or video end*/
 
 /*Topic page end*/
@@ -635,7 +653,7 @@ color: #FFF;
 /*Faq Page start*/
 .faq-head-section {
 	background-color: #fff;
-	padding: 20px 0px 60px;
+	    padding: 0 75px 60px 75px;
 }
 .faq-img-section {
 	height: 400px;
@@ -653,34 +671,47 @@ color: #FFF;
 	max-height: 400px;
 	position: relative;
 }
-.faq-txt-section h2 {
-	font-size: 20px;
-	font-family: 'FranklinGothicLTCom-Bk';
-	color: #005b7f;
-	font-weight: 500;
-	border-bottom: solid 3px #005b7f;
-	text-align: center;
-	padding: 6px;
+.faq-txt-heading {
+	    font-size: 24px;
+    font-family: 'FranklinGothicLTCom-Bk';
+    color: #005b7f;
+    font-weight: 500;
+    border-bottom: solid 3px #005b7f;
+    padding: 6px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    line-height: 40px;
 }
-.faq-txt-section p {
+.faq-txt-section-p-txt {
 	color: #272425;
 	font-size: 17px;
 	text-align: center;
 	font-family: 'ITCFranklinGothicStd-Book';
+	    padding: 20px;
 }
 .more-info {
 	width: 100%;
 }
 .image-icon {
-	position: absolute;
-	right: -24px;
-	z-index: 9999;
-	bottom: -29px;
+position: absolute;
+    right: -16px;
+    z-index: 9999;
+    bottom: -17px;
+    height: 110px;
+    width: 110px;
+  
+}
+.image-icon img{
+	    height: 110px;
 }
 .testimonial-content-section {
-	background-color: #cad8dd;
-	padding: 10px;
-	overflow: hidden;
+	    background-color: #cad8dd;
+    padding: 25px;
+    overflow: hidden;
+    height: 355px;
+    width: 400px;
 }
 .testimonial-content-section h5 {
 	color: #666666;
@@ -688,17 +719,27 @@ color: #FFF;
 	font-family: 'FranklinGothicLTCom-Bk';
 }
 .testimonial-content-section .img-section {
-	width: 100%;
 	text-align: center;
-	height: 95px;
+     height: 213px;
+    overflow: hidden;
+        margin-left: 5px;
+}
+.testimonial-content-section .img-section img {height: 100%; max-width: 371px; width: 100%;}
+ .testimonial-content-section .down-img-section img{  
+  height: 100%;   
+    min-height: 45px;
+}
+.custom-padding{
+	padding: 30px 20px 33px 80px;
 }
 .testimonial-content-section .down-img-section {
 	text-align: center;
-	height: 32px;
-	border-top: solid 2px #005b7f;
-	margin: 0 auto;
-	padding: 2px;
-	width: 30px;
+    height: 32px;
+    border-top: solid 2px #005b7f;
+    margin: 0 auto;
+       padding: 4px 24px 0;
+    width: 80px;
+    margin-top: 10px;
 }
 .slide-border-bottom {
 	border-bottom: solid 4px #005b7f;
@@ -716,6 +757,7 @@ color: #FFF;
 
 
 /*footer*/
+ .cust-footer{padding: 20px 20px 20px 83px !important;}
 footer {
 	margin: 0 auto;
 	overflow: hidden;
@@ -738,7 +780,7 @@ footer {
 }
 .footer-body {
 	background-color: #d2d2d2;
-	    padding: 20px 20px 20px 126px;
+    padding: 20px 20px 20px 118px;
 }
 .footer-text-section {
 	padding: 5px 0px;
@@ -761,7 +803,7 @@ color: #FFF;
     margin: 15px 0 0;
 }
 .footer-logo {
-	    padding: 15px 60px;
+	padding: 15px 45px;
     width: 100%;
     text-align: right;
 }
