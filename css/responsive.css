@@ -53,9 +53,14 @@ padding: 9px 0;
 font-size: 12px;
 }
 .carousel-indicators {
-right: 0;
-left: 74px;
-bottom: 7px;
+    right: 0;
+    left: 105px;
+    bottom: 7px;
+}
+.carousel-indicators li {
+    width: 5px;
+    height: 5px;
+    background-color: #FFF;
 }
 .order-btn {
 padding: 4px 5px;   
