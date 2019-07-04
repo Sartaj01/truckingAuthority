@@ -43,6 +43,7 @@ top: -7px;
         position: absolute;
     right: 16px;
     top: 10px;
+    display: block;
 }
 .logo-first img {
 height: 75px;
@@ -61,13 +62,14 @@ height: 40px;
     right: -3px;
 }
 .bottom-header {
-    bottom: -35px;
+    bottom: -33px;
 
 }
 .carousel-caption.caption_newslider {
-width: 150px;
-padding: 5px 7px;
-bottom: 0px;
+    width: 126px;
+    padding: 5px 7px;
+    bottom: 0px;
+    right: 7px;
 }
 .main-heading{
 font-size: 13px;
@@ -79,9 +81,8 @@ padding: 9px 0;
 font-size: 12px;
 }
 .carousel-indicators {
-    right: 0;
-    left: 105px;
-    bottom: 7px;
+    right: 35px;
+     bottom: 7px;
 }
 .carousel-indicators li {
     width: 5px;
@@ -172,10 +173,14 @@ position: relative;
     font-size: 20px;
 }
 #btn-order{
-        position: relative;
+    position: relative;
     right: -73px;
-    top: 7px;
+    top: 10px;
+        padding: 5px 30px 5px 30px;
 
+}
+.padding-btm{
+        padding-bottom: 38px !important;
 }
 .video-add-zone h2{
 text-transform: uppercase;
@@ -219,7 +224,7 @@ width: 100%;
 padding: 15px;
 }
 .ucr-box .head-h4 { 
-    font-size: 15px;
+    font-size: 14px;
 }
 .perro-service p{
 font-size: 6px;
@@ -242,7 +247,7 @@ width: 100%;
 }
 .truking-heading{
   text-align: center;
-  padding: 10px;
+     padding: 18px 0px 8px 0px;
 }
 .truking-p-txt{
   text-align: center;
@@ -312,6 +317,20 @@ padding: 0 10px;
 .sevice-txt{
     text-align: center;
     font-size: 16px;
+}
+.mobile-border-both {
+    border-top: solid 4px #005b7f;
+    border-bottom: solid 4px #005b7f;
+}
+.temp-img-section img{
+    height: 95px;
+    top: -10px;
+}
+#video-fream {
+        height: 126px;
+}
+.footer-text-section-txt{
+        padding: 0 24px 0px 0px;
 }
 }
 @media only screen and (max-width: 1024px) and (min-width: 768px)  {
