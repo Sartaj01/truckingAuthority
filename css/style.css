@@ -168,19 +168,22 @@ li { list-style:none}
 	padding: 25px 0px;
 }
 .perro-service-heading {
-	text-align: center;
+    text-align: center;
     border: solid 2px #005b7f;
     position: absolute;
     top: -25px;
-    left: 29%;
-    margin: 0 auto;
     background: #FFF;
-    padding: 3px 111px;
-    font-size: 25px;
+    padding: 5px;
+    font-size: 23px;
     color: #003b4c;
     text-transform: capitalize;
     font-family: 'ITCFranklinGothicStd-Med';
     font-weight: 600;
+    min-width: 609px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 600px;
 }
 .sevice-txt {
 	font-family: 'FranklinGothicLTCom-Bk';
@@ -208,13 +211,19 @@ li { list-style:none}
 	padding: 0;
 	margin: 0;
 }
-.ucr-box .head h4 {
+.ucr-box .head-h4 {
 	color: #cccccc;
-	padding: 5px;
-	margin: 0;
-	text-align: center;
-	text-transform: uppercase;
-	overflow: hidden;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    overflow: hidden;
+    max-height: 58px;
+    word-break: break-word;
+    font-size: 23px;
+    font-family: 'FranklinGothicLTCom-Bk';
+    line-height: 25px;
+    min-height: 58px;
 }
 .ucr-body {
 	padding: 15px;
@@ -234,7 +243,7 @@ li { list-style:none}
 	background-color: #f4f4f4;
 	width: 100%;
 	margin: 0 auto;
-	 padding: 20px 20px 20px 120px;
+	 padding: 20px 100px 20px 100px;
 	overflow: hidden;
 }
 .truking-heading{
@@ -407,7 +416,7 @@ width: 100%
 }
 .temp-img-section img{
 	position: absolute;
-    left: -2px;
+    left: -15px;
 }
 .temp-img img{
 	left: -42px;
@@ -768,7 +777,7 @@ footer {
 .footer-head {
 	background-color: #666666;
 	width: 100%;
-	padding: 4px 0px 7px 118px;
+	padding: 4px 100px 7px 100px
 }
 .footer-head ul { padding:0; margin:0;
 }
@@ -781,7 +790,7 @@ footer {
 }
 .footer-body {
 	background-color: #d2d2d2;
-    padding: 20px 20px 20px 118px;
+  padding: 4px 100px 7px 100px
 }
 .footer-text-section {
 	padding: 5px 0px;
@@ -836,9 +845,7 @@ color: #FFF;
 
 
 
-.navbar-expand-md .navbar-nav .nav-link {
-        padding: 10px 90px;
-}
+
 .nav-link {
 	display: block;
 	padding: 7px 31px;
@@ -970,4 +977,14 @@ padding: 0 75px 60px 115px;
 	color: #333;
 	text-align: right;
 
+}
+
+
+#header nav ul li {
+    flex-grow: 1;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+#header .navbar-nav {
+width:100%;
 }

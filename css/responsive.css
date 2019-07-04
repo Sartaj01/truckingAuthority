@@ -26,11 +26,14 @@ top: -7px;
     text-transform: capitalize;
 
 } 
-
+.logo-first {
+    float: left;
+    width: 23%;
+}
 .logo-sec{
-width: 185px;
-float: right;
-margin-top: 28px;
+    float: right;
+    margin-top: 28px;
+    width: 70%;
 }
 .logo-first img {
 height: 75px;
@@ -128,11 +131,9 @@ padding: 10px;
 display: none;
 }
 
-.testi-slider .owl-prev {
-left: -15px !important;
-}
-.testi-slider .owl-next {
-right: -15px !important;
+.ucr-body {
+    padding: 3px 5px 5px 6px;
+    overflow: hidden;
 }
 .temp-img-section {
 float: left;
@@ -153,6 +154,19 @@ padding-top: 10px;
 width: 100%;
 float:unset;
 text-align: center;
+position: relative;
+}
+.temporary-no-section-txt{
+    position: absolute;
+    top: 18px;
+    left: 0;
+    font-size: 20px;
+}
+#btn-order{
+        position: relative;
+    right: -73px;
+    top: 7px;
+
 }
 .video-add-zone h2{
 text-transform: uppercase;
@@ -161,10 +175,10 @@ text-transform: uppercase;
 width: 249px;
 }
 .footer-logo img{
-    position: absolute;
-    height: 51px;
+  position: absolute;
+    height: 45px;
     top: -47px;
-    right: 15px;
+    right: 0px;
 
 }
 .footer-logo-txt p {
@@ -172,20 +186,24 @@ font-size: 10px;
 text-align: center;
 padding-right: 15px;
 }
+.footer-text{
+    padding: 0 0px 10px 0px;
+    text-align: center;
+    font-size: 10px;
+}
 .ucr-box-section .ucr-box {
     width: 27%;
     margin-left: 20px;
     margin-bottom: 5px;
 }
 .perro-service{
-padding: 15px;
-margin-top: 63px;
+    padding: 1px 0px 0px 1px;
+    margin-top: 63px;
 }
 .perro-service-heading{
-    font-size: 20px;
-    top: -24px;
-    left: 7%;
-    padding: 4px;
+      width: 250px !important;
+    min-width: 250px;
+    font-size: 14px;
 }
 .service-text-section{
 width: 100%;
@@ -205,7 +223,7 @@ text-align: center;
 padding: 100px 0;
 }
 .truking-section {
-padding: 20px 0px;
+    padding: 0px 0px 10px 0px;
 }
 .truking-text-section{
 width: 100%;
@@ -277,60 +295,44 @@ padding-right:0;
 }
 .logo-section{
 width: 60%;
+ overflow: hidden;
 
+}
+.logo-first {
+    float: left;
+       width: 20%;
+}
+.logo-sec{
+    float: right;
+    margin:0;
+       width: 80%;
 }
 .header-text{
 width: 40%;
 }
-.acquisitions-text-section{
-width: 100%;
-}
-.truking-img-section{
-overflow: hidden;
-}
-.testi-slider .owl-next {
-right: -15px !important;
-top: 41%  !important;
-}
-.testi-slider .owl-prev {
-left: -15px !important;
-top: 41% !important;
-}
-.temp-img-section{
-padding:0;
-}
-.temporary-text-section{
-width: 100%;
-}
-.temporary-no-section{
-float: unset;
-}
-.hero-text {
-min-width: unset; 
-max-width: unset; 
-}
-.ucr-box-section .ucr-box {  
-width: 45%; 
-margin-bottom: 15px;
-}
-.keller-text-section{
-width: 100%;
-}
-.keller-img-section{
-overflow: hidden;
-}
-.testimonial .testimonial-content {
-padding: 10px 0px 10px 20px;
-}
-
-.testi-slider .owl-next {
-right: -44px !important;
-}
-
-.testi-slider .owl-prev {
-left: -30px !important;
-}
-
+.button-auth {
+     padding: 5px 10px 10px 10px;
+ }
+ .main-heading{
+margin: 0 0 5px;
+    padding: 0;
+    max-height: 100px;
+ }
+ .truking-section{
+        padding: 20px 30px 20px 30px;
+ }
+ .temporary-section{
+    padding: 20px 15px 20px 15px;
+ }
+ .footer-head{
+    padding: 4px 1px 7px 30px;
+ }
+ .footer-body{
+        padding: 4px 4px 7px 30px;
+ }
+ .truking-section img{
+    margin-top: 60px;
+ }
 }
 
 
