@@ -270,7 +270,7 @@ color: #FFF;
 .truking-section.custom_bg {    background-color: #fff;
     border-top: 0;
     border-bottom: 0;}
-	.truking-section.adnew_bg{ background-color:#e4e4e4; border-bottom:none}
+	.truking-section.adnew_bg{ background-color:#e4e4e4; border-bottom:none; padding-bottom: 15px;}
 /*truking section end*/
 
 
@@ -416,13 +416,13 @@ width: 100%
 	width: 40%;
 	float: left;
 }
-.temporary-text-section h3 {
+.temporary-text-section-txt {
 	font-family: 'ITCFranklinGothicStd-Book';
 	color: #185e79;
 	text-align: left;
 	font-size: 18px;
 }
-.temporary-text-section p {
+.temporary-text-section-p {
 	font-size: 14px;
 	font-family: 'FranklinGothicLTCom-Bk';
 	color: #005b7f;
@@ -432,7 +432,7 @@ width: 100%
     text-align: center;
     padding: 0 67px;
 }
-.temporary-no-section h3 {
+.temporary-no-section-txt {
 	font-family: 'FranklinGothicLTCom-Bk';
 	font-size: 24px;
 	color: #116383;
@@ -821,6 +821,7 @@ color: #FFF;
 	    padding: 8px;
     color: #000000;
     font-size: 12px;
+    text-align: right;
 }
 
 .custom-padding-footer{
