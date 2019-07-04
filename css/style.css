@@ -437,7 +437,7 @@ width: 100%
 	font-size: 24px;
 	color: #116383;
 }
-.temporary-no-section .order-now {
+.order-now {
     color: #005b7f;
     background-color: #fdc140;
     padding: 7px 35px;
@@ -502,7 +502,7 @@ width: 100%
 	color: #FFF;
 }
 .contant-section {
-	padding: 30px;
+	padding: 25px 80px;
 	background-image: linear-gradient(#ccdee5, #FFF);
 }
 .text-first-section h2 {
@@ -807,7 +807,9 @@ color: #FFF;
 	padding: 15px 37px;
     width: 100%;
     text-align: right;
+    position: relative;
 }
+
 .footer-logo-txt p {
 	font-family: 'ITCFranklinGothicStd-Book';
 	color: #000;
@@ -815,6 +817,24 @@ color: #FFF;
 	text-align: right;
 	padding-right: 56px;
 }
+.footer-text{
+	    padding: 8px;
+    color: #000000;
+    font-size: 12px;
+}
+
+.custom-padding-footer{
+	    padding: 4px 0px 7px 81px;
+}
+
+
+
+
+
+
+
+
+
 .navbar-expand-md .navbar-nav .nav-link {
         padding: 10px 90px;
 }
@@ -842,6 +862,11 @@ color: #FFF;
 	font-size: 12px;
 	display: none;
 }
+.menu-text{
+	color: #fff;
+	font-size: 12px;
+	display: none;
+}
 .navbar-dark .navbar-toggler {
 	color: #FFF;
 	border-color: unset;
@@ -851,3 +876,97 @@ color: #FFF;
     background-color:red;
 }
 
+.cust-pading{
+	    padding: 20px 20px 20px 78px;
+}
+#video-fream{
+	height: 250px;
+}
+
+/*simple page*/
+.simple-header{
+padding: 0 75px 60px 115px;
+}
+.simple-section{
+	    padding: 20px 20px 20px 100px;
+	    border-top: none;
+    border-bottom: none;
+    background-color: #e5eef2;
+}
+
+.heading-testimonial{
+	    color: #005b7f;
+    font-size: 20px;
+    padding: 10px 12px;
+    text-transform: capitalize;
+}
+
+.testimonial-img{
+	    border: solid 1px #000;
+    height: 90px;
+}
+
+
+/*slider*/
+
+.card {
+  margin: 0 auto;
+   background-color:transparent !important;
+  border: none !important;
+}
+.card .carousel-item {
+  height: 130px;
+}
+.card .carousel-caption {
+  padding: 0;
+  right: 0;
+  left: 0;
+  color: #3d3d3d;
+}
+.card .carousel-caption h3 {
+  color: #3d3d3d;
+}
+.card .carousel-caption p {
+  line-height: 30px;
+}
+.card .carousel-caption .col-sm-3 {
+  display: flex;
+  align-items: center;
+}
+.card .carousel-caption .col-sm-9 {
+  text-align: left;
+}
+.card .carousel-control-prev, .card .carousel-control-next {
+  color: #3d3d3d !important;
+  opacity: 1 !important;
+}
+.carousel-control-next {
+    right: -109px !important;
+}
+.carousel-control-prev {
+    left: -164px !important;
+}
+.carousel-control-prev-icon {
+    background-image: url(../images/slider-left.png) !important;
+}
+.carousel-control-next-icon {
+    background-image: url(../images/slider-right.png) !important;
+}
+.logo-place{
+	    border: solid 1px #000;
+    background-color: #fff;
+    height: 102px;
+    width: 90%;
+    overflow: hidden;
+}
+.incremented-text{
+	font-size: 14px;
+	color: #333;
+	text-align: left;
+}
+.small-text{
+	font-size: 13px;
+	color: #333;
+	text-align: right;
+
+}

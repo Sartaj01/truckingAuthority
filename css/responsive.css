@@ -13,6 +13,20 @@ top: -7px;
 
 } 
 
+.menu-text {
+    display: block;
+    padding: 14px;
+    margin: 0;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 17px;
+    position: absolute;
+    left: 33px;
+    top: -10px;
+    text-transform: capitalize;
+
+} 
+
 .logo-sec{
 width: 185px;
 float: right;
@@ -144,8 +158,12 @@ text-transform: uppercase;
 .video-section {
 width: 249px;
 }
-.footer-logo{
-text-align: center;
+.footer-logo img{
+    position: absolute;
+    height: 51px;
+    top: -47px;
+    right: 15px;
+
 }
 .footer-logo-txt p {
 font-size: 10px;
