@@ -1049,3 +1049,9 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 	       background: rgba(0, 0, 0, 0.56);
 }
 }
+a[href^="tel"] {
+  color: inherit; /* Inherit text color of parent element. */
+  text-decoration: none; /* Remove underline. */
+  /* Additional css `propery: value;` pairs here */
+  color: #fff !important;
+}
