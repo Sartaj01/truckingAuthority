@@ -33,7 +33,7 @@
 					 $("body").append('<div class="grtyoutube-popup '+settings.theme+'">'+
 								'<div class="grtyoutube-popup-content">'+
 									'<span class="grtyoutube-popup-close"></span>'+
-									'<iframe class="grtyoutube-iframe" src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" allowfullscreen frameborder="0" allow="autoplay; fullscreen"></iframe>'+
+									'<iframe class="grtyoutube-iframe" src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4" allowfullscreen frameborder="0" allow="autoplay; fullscreen"></iframe>'+
 								'</div>'+
 							'</div>');
 				});

@@ -35,12 +35,12 @@ top: -7px;
     width: 20%;
 }
 .logo-sec{
-    float: right;
-    margin-top: 28px;
+   float: right;
+    margin-top: 23px;
     width: 80%;
 }
 .headewr-btn{
-        position: absolute;
+     position: absolute;
     right: 16px;
     top: 10px;
     display: block;
@@ -50,8 +50,8 @@ height: 75px;
 width: 65px;
 }
 .logo-sec img{
-width: 100%;
-height: 40px;
+    width: 100%;
+    height: 46px;
 }
 .btn-sec {
     margin: 0;
@@ -62,7 +62,9 @@ height: 40px;
     right: -3px;
 }
 .bottom-header {
-    bottom: -33px;
+   bottom: -20px;
+    padding: 0;
+    height: 20px;
 
 }
 .carousel-caption.caption_newslider {
@@ -72,17 +74,20 @@ height: 40px;
     right: 7px;
 }
 .main-heading{
-font-size: 13px;
-margin-bottom:0;
-padding: 0;
+    font-size: 13px;
+    margin-bottom: 0;
+    padding: 0;
+    min-height: 62px;
+    max-height: 62px;
+    overflow: hidden;
+    height: 100%;
 }	
 .no-text {
 padding: 9px 0;
 font-size: 12px;
 }
 .carousel-indicators {
-    right: 35px;
-     bottom: 7px;
+ display: none;
 }
 .carousel-indicators li {
     width: 5px;
@@ -94,7 +99,7 @@ padding: 4px 5px;
 font-size: 9px;
 }
 .button-auth {
-padding: 3px 5px 5px 10px !important;
+ padding: 7px 5px 6px 5px !important;
 margin-right: 0;
 font-size: 10px;
 }
@@ -167,10 +172,10 @@ text-align: center;
 position: relative;
 }
 .temporary-no-section-txt{
-    position: absolute;
-    top: 18px;
-    left: 0;
-    font-size: 20px;
+      position: absolute;
+    top: 24px;
+    left: 32px;
+    font-size: 17px;
 }
 #btn-order{
     position: relative;
@@ -190,7 +195,7 @@ width: 249px;
 }
 .footer-logo img{
   position: absolute;
-    height: 45px;
+    height: 54px;
     top: -47px;
     right: 0px;
 
@@ -332,6 +337,15 @@ padding: 0 10px;
 .footer-text-section-txt{
         padding: 0 24px 0px 0px;
 }
+.bg-blue {
+    background-color: #005b7f!important;
+}
+.mobile-img img{
+    height: 165px;
+}
+.slidermar{
+    padding: 0;
+}
 }
 @media only screen and (max-width: 1024px) and (min-width: 768px)  {
 .navbar-expand-md .navbar-nav .nav-link{
@@ -361,6 +375,8 @@ width: 40%;
 margin: 0 0 5px;
     padding: 0;
     max-height: 100px;
+    min-height: 100px;
+    height: 100%;
  }
  .truking-section{
         padding: 20px 30px 20px 30px;
@@ -391,6 +407,29 @@ margin: 0 0 5px;
 #video-fream {
     height: 160px;
     margin-top: 54px;
+}
+.logo-sec img {
+    height: 73px;
+}
+.temp-img-section img {
+    position: absolute;
+    left: -15px;
+    height: 100px;
+    top: -11px;
+}
+.temporary-text-section {
+    width: 100%;
+    
+}
+.temporary-text-section {
+    width: 100%;
+    margin-left: 50px;
+}
+.carousel-caption.caption_newslider{
+        padding: 17px 40px;
+}
+.no-text {
+    padding:0;
 }
 }
 

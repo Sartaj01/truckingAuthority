@@ -199,15 +199,16 @@ li { list-style:none}
 
 /*ucr-box section Start*/
 .ucr-box-section {
-	    width: 95%;
+	    width: 97%;
     display: inline-block;
     margin-top: 14px;
     margin: 0 auto;
 }
 .ucr-box-section .ucr-box {
-	border: solid 1px #005b7f;
-	width: 18%;
-	margin-left: 15px;
+    border: solid 1px #005b7f;
+    width: 15%;
+    margin-left: 18px;
+    margin-bottom: 30px;;
 }
 .ucr-box .head {
 	border-bottom: solid 1px #005b7f;
@@ -231,7 +232,7 @@ li { list-style:none}
 .ucr-body {
 	padding: 15px;
 }
-.ucr-body p {
+.ucr-body-p {
 	color: #58524c;
 	font-size: 12px;
 	text-align: left;
@@ -241,8 +242,8 @@ li { list-style:none}
 
 /*truking section start*/
 .truking-section {
-	border-top: solid 4px #005b7f;
-	border-bottom: solid 4px #005b7f;
+	border-top: solid 6px #005b7f;
+	border-bottom: solid 6px #005b7f;
 	background-color: #f4f4f4;
 	width: 100%;
 	margin: 0 auto;
@@ -367,7 +368,7 @@ width: 100%
 
 
 .keller-section {
-	border-top: solid 4px #005b7f;
+	border-top: solid 6px #005b7f;
 	border-bottom: solid 2px #e7e7e7;
 	background-color: #f4f4f4;
 	width: 100%;
@@ -410,7 +411,7 @@ width: 100%
 .temporary-section {
 	background-color: #eeeeee;
 	margin: 0 auto;
-	padding: 40px 20px 40px 80px;
+	padding: 50px 20px 55px 80px;
 	overflow: hidden;
 	width: 100%;
 }
@@ -614,7 +615,7 @@ width: 100%
 	padding: 5px 24px;
 }
 .border-faq {
-	border-top: solid 4px #005b7f;
+	border-top: solid 6px #005b7f;
 }
 .border-faq p {
 	font-size: 12px;
@@ -655,11 +656,11 @@ width: 100%
 	font-family: 'ITCFranklinGothicStd-Book';
 }
 .border-both {
-	border-top: solid 4px #005b7f;
+	border-top: solid 6px #005b7f;
 	border-bottom: solid 4px #005b7f;
 }
 .border-blue-bottom {
-	border-bottom: solid 4px #005b7f;
+	border-bottom: solid 6px #005b7f;
 }
 /*add or video end*/
 
@@ -995,4 +996,18 @@ padding: 0 75px 60px 115px;
 }
 #header .navbar-nav {
 width:100%;
+}
+
+.thumb{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+
+}
+
+_::-webkit-full-page-media, _:future, :root .safari_only {
+
+      color: #FFF !important;
+
+
 }
