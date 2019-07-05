@@ -851,13 +851,6 @@ color: #FFF;
 }
 
 
-
-
-
-
-
-
-
 .nav-link {
 	display: block;
 	padding: 7px 31px;
@@ -890,7 +883,7 @@ color: #FFF;
 .navbar-dark .navbar-toggler {
 	color: #FFF;
 	border-color: unset;
-	border: none;
+	border: unset;
 }
 #nav-toggle-button{
     background-color:red;
@@ -1032,7 +1025,13 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     max-width: 800px;
     margin: 1.75rem auto;
 }
-
+     button:focus {
+    outline:none;
+     outline: none;
+}
+:focus {
+    outline:none;
+}
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 .carousel-caption.caption_newslider{
 	    background: #0000005c;
