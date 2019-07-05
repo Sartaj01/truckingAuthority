@@ -469,6 +469,9 @@ width: 100%
     width: 377px;
 
 }
+.video-img-section{
+	overflow: hidden;
+}
 /*why keller section End*/
 
 
@@ -897,7 +900,7 @@ color: #FFF;
 	    padding: 20px 20px 20px 78px;
 }
 #video-fream{
-height: 273px;
+    width: 100%;
 }
 
 /*simple page*/
