@@ -384,6 +384,7 @@ margin: 0 0 5px;
     max-height: 100px;
     min-height: 100px;
     height: 100%;
+    font-size: 25px;
  }
  .truking-section{
         padding: 20px 30px 20px 30px;
@@ -407,9 +408,7 @@ margin: 0 0 5px;
     margin-top: 15px;
  }
  .carousel-indicators {
-    right: 0;
-    left: 0;
-    bottom: 30px;
+   display: none;
 }
 #video-fream {
     height: 160px;
@@ -432,11 +431,15 @@ margin: 0 0 5px;
     width: 100%;
     margin-left: 50px;
 }
-.carousel-caption.caption_newslider{
-        padding: 17px 40px;
-}
+
 .no-text {
-    padding:0;
+       padding: 10px 0;
+    font-size: 25px;
+}
+.carousel-caption.caption_newslider {  
+    right: 4%;   
+    width: 246px;
+    padding: 17px 20px;
 }
 }
 

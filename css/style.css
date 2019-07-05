@@ -411,7 +411,7 @@ width: 100%
 .temporary-section {
 	background-color: #eeeeee;
 	margin: 0 auto;
-	padding: 50px 20px 55px 80px;
+	padding: 55px 20px 55px 80px;
 	overflow: hidden;
 	width: 100%;
 }
@@ -422,7 +422,7 @@ width: 100%
 	    position: absolute;
     left: -15px;
     height: 137px;
-    top: -25px;
+    top: -27px;
 }
 .temp-img img{
 	left: -42px;
@@ -455,7 +455,7 @@ width: 100%
 .order-now {
     color: #005b7f;
     background-color: #fdc140;
-    padding: 7px 35px;
+    padding: 7px 35px 8px 35px;
     text-transform: capitalize;
     font-family: 'ITCFranklinGothicStd-DmCd';
     cursor: pointer;
