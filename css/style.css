@@ -1034,18 +1034,18 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 }
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 .carousel-caption.caption_newslider{
-	    background: #0000005c;
+	       background: rgba(0, 0, 0, 0.56);
 }
 }
 
 @supports (-ms-accelerator:true) {
 	.carousel-caption.caption_newslider{
-	    background: #0000005c;
+	      background: rgba(0, 0, 0, 0.56);
 }
 }
 
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 	.carousel-caption.caption_newslider{
-	    background: #0000005c;
+	       background: rgba(0, 0, 0, 0.56);
 }
 }
