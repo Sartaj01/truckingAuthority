@@ -291,12 +291,18 @@
           <div class="mobile-view mt-20 pt-20 video-img-section truking-img">
 
          <!--  <img src="images/why.jpg" alt=""> -->
-       
-           <video  class="youtube-link" preload="metadata" id="video-fream" youtubeid="yPu6qV5byu4">
-            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4#t=0.5" type="video/mp4">
+        <div class="videopart">
+           <video width="100%" controls disabled>
+            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4">
                <source src="movie.ogg" type="video/ogg">
             </video>
+            <!--  <video  class="youtube-link" preload="metadata" id="video-fream" youtubeid="yPu6qV5byu4" controls>
+            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4#t=0.5" type="video/mp4">
+               <source src="movie.ogg" type="video/ogg">
+            </video> -->
 
+            <div class="bgvideo" data-toggle="modal" data-target="#exampleModal"></div>
+          </div>
         </div>
         </div>
       </div>
@@ -334,24 +340,29 @@
     </div>
   </footer>
 
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-video" role="document">
+    <div class="modal-content modal-content-video">
+  
+      <div class="modal-body model-body-video">
+        <video width="100%"  controls autoplay>
+            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4">
+               <source src="movie.ogg" type="video/ogg">
+            </video>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+
   <script src="js/jquery-3.3.1.slim.min.js"></script>
   <script type="text/javascript" src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-   <link rel="stylesheet" href="css/css-demo-page.css">
-    <link rel="stylesheet" href="css/grt-youtube-popup.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-
-    <!-- GRT Youtube Popup -->
-    <script src="js/grt-youtube-popup.js"></script>
-<script>
-      // Demo video 1
-      $(".youtube-link").grtyoutube({
-        autoPlay:true,
-        theme: "dark"
-      });
-
-     
-    </script>
+  
 </body>
 </html>

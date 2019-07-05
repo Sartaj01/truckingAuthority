@@ -1014,3 +1014,21 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 
 
 }
+
+.videopart { position: relative; }
+.bgvideo {    background-color: #000;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+}
+.model-body-video{
+	padding: 0;
+   
+}
+.modal-content-video { background-color: transparent; border:none; }
+.modal-dialog-video {
+    max-width: 800px;
+    margin: 1.75rem auto;
+}
