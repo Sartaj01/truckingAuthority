@@ -1055,3 +1055,6 @@ a[href^="tel"] {
   /* Additional css `propery: value;` pairs here */
   color: #fff !important;
 }
+.temporary-no-section-txt {
+	-webkit-tap-highlight-color: rgb(1, 0, 249) !important;
+}
