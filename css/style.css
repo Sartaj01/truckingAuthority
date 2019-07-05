@@ -1017,7 +1017,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 
 .videopart { position: relative; }
 .bgvideo {    background-color: #000;
-    position: absolute;
+    position: abs olute;
     top: 0;
     height: 100%;
     width: 100%;
@@ -1031,4 +1031,22 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 .modal-dialog-video {
     max-width: 800px;
     margin: 1.75rem auto;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.carousel-caption.caption_newslider{
+	    background: #0000005c;
+}
+}
+
+@supports (-ms-accelerator:true) {
+	.carousel-caption.caption_newslider{
+	    background: #0000005c;
+}
+}
+
+@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.carousel-caption.caption_newslider{
+	    background: #0000005c;
+}
 }

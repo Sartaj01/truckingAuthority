@@ -40,9 +40,9 @@ top: -7px;
     width: 80%;
 }
 .headewr-btn{
-     position: absolute;
+      position: absolute;
     right: 14px;
-    top: 10px;
+    top: 9px;
     display: block;
 }
 .logo-first img {
@@ -50,8 +50,9 @@ height: 75px;
 width: 65px;
 }
 .logo-sec img{
-    width: 100%;
-    height: 46px;
+ width: 100%;
+    height: 52px;
+    padding-top: 5px;
 }
 .btn-sec {
     margin: 0;
@@ -353,6 +354,10 @@ padding: 0 10px;
        background-color: #666666!important;
     color: #fff;
 }
+     button:focus {
+    outline:none;
+     outline: none;
+}
 }
 @media only screen and (max-width: 1024px) and (min-width: 768px)  {
 .navbar-expand-md .navbar-nav .nav-link{
@@ -444,6 +449,10 @@ margin: 0 0 5px;
      .btn-sec{
         padding: 6px;
      }
+     button:focus {
+    outline:none;
+     outline: none;
+}
 }
 
 
