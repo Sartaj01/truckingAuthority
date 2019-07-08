@@ -140,9 +140,9 @@ width: 65px;
     height: 100%;
 }	
 .no-text {
-padding: 9px 0;
-max-height: 95px;
-    line-height: 11px;
+    padding: 6px 0;
+    max-height: 50px;
+    line-height: 12px;
     color: #fff;
     font-size: 11px;
 }
@@ -222,8 +222,10 @@ width: 100%;
     font-weight: 600;
 }
 .temporary-text-section-p {
-font-size: 11px;
-padding-top: 10px;
+    font-size: 11px;
+    padding-top: 10px;
+    max-height: 140px;
+    overflow: hidden;
 }
 .temporary-no-section {
 width: 100%;
@@ -232,10 +234,13 @@ text-align: center;
 position: relative;
 }
 .temporary-no-section-txt{
-      position: absolute;
+        position: absolute;
     top: 24px;
     left: 32px;
     font-size: 17px;
+    width: 117px;
+    max-height: 46px;
+    overflow: hidden;
 }
 #btn-order{
     position: relative;
