@@ -1008,14 +1008,14 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 
 }
 .video-btn{
-
+/*
     position: absolute;
     top: -8px;
     height: 25px;
     width: 25px;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
   /*  background-image: url(../images/play.png);*/
 }
 .videopart { position: relative; }
