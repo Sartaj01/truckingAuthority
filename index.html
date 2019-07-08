@@ -291,33 +291,55 @@
         <div class="col-md-5" id="b">
           <div class="mobile-view mt-20 pt-20 video-img-section truking-img">
 
-         <!--  <img src="images/why.jpg" alt=""> -->
-        <div class="videopart"  data-toggle="modal" data-target="#exampleModal">
-        
-          <!--  <video width="100%" controls disabled>
-            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4">
-               <source src="movie.ogg" type="video/ogg">
-            </video> -->
-           <!--   <video class="youtube-link"  preload="metadata" id="video-fream" youtubeid="yPu6qV5byu4">
-            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4#t=0.5" type="video/mp4">
-               <source src="movie.ogg" type="video/ogg">
-            </video> -->
-                 <!-- <div class="video-btn youtube-link">
-                   <img class="youtube-link" src="images/play.png">
+      <div class="container">
+   
+  
+  
 
-                 </div> -->
-                 <button style="position: relative; padding:0;" type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/IP7uGKgJL8U" data-target="#myModal">
-  <video width="100%" controls class="video">
+  
+   <!-- Button trigger modal -->
+<button style="position: relative;" type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/IP7uGKgJL8U" data-target="#myModal">
+  <video width="400" controls class="video">
   <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4">
   <source src="mov_bbb.ogg" type="video/ogg">
   Your browser does not support HTML5 video.
 </video>
-<div class="bg" style="background-color: #0000006b; position: absolute; height: 100%; width: 100%; top: 0;" data-toggle="modal" data-src="https://www.youtube.com/embed/IP7uGKgJL8U" data-target="#myModal">
+<div class="bg" style="    background-color: #0000006b; position: absolute; height: 100%; width: 100%; top: 0;" data-toggle="modal" data-src="https://www.youtube.com/embed/IP7uGKgJL8U" data-target="#myModal">
   
 </div>
 </button>
-            <div class="bgvide o" data-toggle="m odal" data-target="#ex ampleModal"></div>
-          </div>
+  
+  
+
+  
+ 
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      
+      <div class="modal-body">
+
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>        
+        <!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+</div>
+        
+        
+      </div>
+
+    </div>
+  </div>
+</div> 
+  
+  
+  
+</div>
         </div>
         </div>
       </div>
@@ -372,43 +394,16 @@
     </div>
   </div>
 </div> -->
+   
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-video" role="document">
-    <div class="modal-content modal-content-video">
 
-      
-      <div class="modal-body model-body-video">
+    <!-- Bootstrap CSS -->
 
-       <div class="modal-body model-body-video">
-        <video width="100%" preload="metadata"  controls  autoplay>
-            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4">
-               <source src="movie.ogg" type="video/ogg">
-            </video>
-      </div>
-        
-        
-      </div>
 
-    </div>
-  </div>
-</div> 
-
-<link rel="stylesheet" type="text/css" href="css/grt-youtube-popup.css">
-<link rel="stylesheet" type="text/css" href="css/css-demo-page.css">
-  <script src="js/jquery-3.3.1.slim.min.js"></script>
-  <script type="text/javascript" src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-  <script src="js/grt-youtube-popup.js"></script>
-  <script>
-      // Demo video 1
-      // $(".youtube-link").grtyoutube({
-      //   autoPlay:true,
-      //   theme: "dark"
-      // });
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript">
   $(document).ready(function() {
 
 // Gets the video src from the data-src on each button
@@ -446,7 +441,47 @@ $('#myModal').on('hide.bs.modal', function (e) {
 
 
 
+</script>
 
+<link rel="stylesheet" type="text/css" href="css/grt-youtube-popup.css">
+<link rel="stylesheet" type="text/css" href="css/css-demo-page.css">
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script type="text/javascript" src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  <script src="js/grt-youtube-popup.js"></script>
+  <script>
+      // Demo video 1
+      $(".youtube-link").grtyoutube({
+        autoPlay:true,
+        theme: "dark"
+      });
     </script>
+   <style type="text/css">
+     
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+.video { position: relative; }
+    </style>
+   </style>
 </body>
 </html>
