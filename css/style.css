@@ -143,14 +143,15 @@ li { list-style:none}
   
  }  
  .no-text{
-      padding: 25px 0;
-    font-size: 37px;
+        padding: 13px 0;
+    font-size: 32px;
     color: #FFF;
     text-align: left;
     font-family: 'ArialNarrow';
     overflow: hidden;
-    max-height: 190px;
-    line-height: 40px;
+    max-height: 50px;
+    min-height: 50px;
+    line-height: 35px;
 } 
  .carousel-indicators .active {
  	background: #005b7f !important;
@@ -809,8 +810,11 @@ footer {
 }
 .footer-text-section-txt {
 	font-size: 14px;
-	color: #000000;
-	    margin-bottom: 15px;
+    color: #000000;
+    margin-bottom: 15px;
+    height: auto;
+    overflow: hidden;
+    max-height: 287px;
 }
 .footer-text-section .vist {
 color: #FFF;
