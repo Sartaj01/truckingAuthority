@@ -141,7 +141,10 @@ width: 65px;
 }	
 .no-text {
 padding: 9px 0;
-font-size: 12px;
+max-height: 95px;
+    line-height: 11px;
+    color: #fff;
+    font-size: 11px;
 }
 .carousel-indicators {
  display: none;
@@ -414,9 +417,7 @@ padding: 0 10px;
     outline:none;
      outline: none;
 }
-.no-text {
-   color: #FFF;
-}
+
 }
 @media only screen and (max-width: 1024px) and (min-width: 768px)  {
 .navbar-expand-md .navbar-nav .nav-link{
@@ -446,7 +447,7 @@ width: 40%;
 margin: 0 0 5px;
     padding: 0;
     max-height: 100px;
-    min-height: 100px;
+       min-height: 115px;
     height: 100%;
     font-size: 25px;
  }
@@ -496,8 +497,9 @@ margin: 0 0 5px;
 }
 
 .no-text {
-       padding: 10px 0;
-    font-size: 25px;
+        padding: 10px 0;
+    font-size: 12px;
+    max-height: 90px;
 }
 .carousel-caption.caption_newslider {  
     right: 4%;   
