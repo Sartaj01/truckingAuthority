@@ -1043,6 +1043,13 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 :focus {
     outline:none;
 }
+
+.video { position: relative; }
+
+
+
+
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 .carousel-caption.caption_newslider{
 	       background: rgba(0, 0, 0, 0.56);

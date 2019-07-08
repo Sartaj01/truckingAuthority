@@ -291,7 +291,7 @@
         <div class="col-md-5" id="b">
           <div class="mobile-view mt-20 pt-20 video-img-section truking-img">
 
-      <div class="container">
+     
    
   
   
@@ -299,7 +299,7 @@
   
    <!-- Button trigger modal -->
 <button  type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/IP7uGKgJL8U" data-target="#myModal">
-  <video width="100%" controls class="video">
+  <video width="100%"  preload="metadata" controls class="video">
   <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4">
   <source src="mov_bbb.ogg" type="video/ogg">
   Your browser does not support HTML5 video.
@@ -316,34 +316,28 @@
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-
-      
-      <div class="modal-body">
-
-       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  <div class="modal-dialog modal-dialog-video" role="document">
+    <div class="modal-content modal-content-video">
+      <div class="modal-body modal-body-video">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>        
         <!-- 16:9 aspect ratio -->
-<div class="embed-responsive embed-responsive-16by9">
-  <video  playsinline autoplay loop muted controls class="video">
-  <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4">
-  <source src="mov_bbb.ogg" type="video/ogg">
-  Your browser does not support HTML5 video.
-</video>
-</div>
-        
-        
+        <div class="embed-responsive embed-responsive-16by9">
+          <video  playsinline autoplay loop muted controls class="video">
+            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4">
+              <source src="mov_bbb.ogg" type="video/ogg">
+                Your browser does not support HTML5 video.
+              </video>
+            </div>
+          </div>
+        </div>
       </div>
+    </div> 
+  
+  
+  
 
-    </div>
-  </div>
-</div> 
-  
-  
-  
-</div>
         </div>
         </div>
       </div>
