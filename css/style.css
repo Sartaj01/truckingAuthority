@@ -136,12 +136,11 @@ li { list-style:none}
     top: 0;
     width: 407px;
 }
- .carousel-indicators{
-    right: 170px;
-    left: unset;
-    bottom: 55px;
-  
- }  
+.carousel-indicators {
+    right: unset !important;
+    left: -21px;
+    bottom: 33px;
+}
  .no-text{
         padding: 13px 0;
     font-size: 32px;
@@ -1064,24 +1063,6 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 
 
 
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-.carousel-caption.caption_newslider{
-	       background: rgba(0, 0, 0, 0.56);
-}
-}
-
-@supports (-ms-accelerator:true) {
-	.carousel-caption.caption_newslider{
-	      background: rgba(0, 0, 0, 0.56);
-}
-}
-
-@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-	.carousel-caption.caption_newslider{
-	       background: rgba(0, 0, 0, 0.56);
-}
-}
 a[href^="tel"] {
   color: inherit; /* Inherit text color of parent element. */
   text-decoration: none; /* Remove underline. */
