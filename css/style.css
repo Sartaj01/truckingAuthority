@@ -780,7 +780,7 @@ position: absolute;
     box-shadow:unset;
 }
 .btn-primary.focus, .btn-primary:focus {
-    box-shadow: unset;
+    box-shadow: unset !important;
 }
 
 

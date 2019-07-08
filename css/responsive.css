@@ -577,10 +577,21 @@ outline: none;
 
 
 
-
-
-
-
-
+@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: unset !important;
+}
+}
+@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.btn.focus, .btn:focus{
+box-shadow:unset !important;
+}
+}
+@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.btn-primary:hover{
+background-color:unset;
+border-color:unset;
+  }
+}
 
 
