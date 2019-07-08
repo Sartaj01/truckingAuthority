@@ -299,7 +299,7 @@
   
    <!-- Button trigger modal -->
 <button style="position: relative;" type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/IP7uGKgJL8U" data-target="#myModal">
-  <video width="400" controls class="video">
+  <video width="100%" controls class="video">
   <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4">
   <source src="mov_bbb.ogg" type="video/ogg">
   Your browser does not support HTML5 video.
@@ -327,7 +327,11 @@
         </button>        
         <!-- 16:9 aspect ratio -->
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+  <video  playsinline autoplay loop muted controls class="video">
+  <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
 </div>
         
         
