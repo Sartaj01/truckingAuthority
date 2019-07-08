@@ -1,4 +1,59 @@
 
+
+@media only screen 
+and (min-device-width : 700px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+.ph-no p {
+  font-size: 14px;
+}
+.button-auth {
+    color: #FFF;
+    border: solid 1px #005b7f;
+    padding: 5px 10px 4px;
+    background: #005b7f;
+    text-transform: capitalize;
+    font-size: 7px;
+    cursor: pointer;
+    margin-right:0;
+}
+
+.sevice-txt {
+font-size: 15px;
+}
+.ucr-box .head-h4{
+  font-size: 11px;
+}
+.ucr-body-p {
+  font-size: 8px !important;
+  overflow: hidden;
+}
+.main-heading{
+  font-size: 23px;
+    padding-bottom: 0;
+}
+.no-text{
+  font-size: 20px;
+}
+.carousel-indicators {
+    right: 170px;
+    left: 95px;
+    bottom: 26px;
+}
+
+.temporary-text-section{
+  width: 100%;
+}
+.temporary-no-section {
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding: 23px 0px;
+}
+
+}
+
 @media only screen and (max-width: 676px) and (min-width: 320px)  {
 .mobile_no {
 display: block;
@@ -456,12 +511,6 @@ margin: 0 0 5px;
      outline: none;
 }
 }
-
-
-
-
-
-
 
 
 
