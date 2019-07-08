@@ -1012,6 +1012,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     padding: 0;
     background: none;
     border: none;
+    outline: none;
 
 }
 .video-btn:hover {
