@@ -36,7 +36,7 @@ li { list-style:none}
 	width: 40%;
     float: left;
 }
-.ph-no .mobile-no {
+.ph-no p {
 	padding: 14px;
 	margin: 0;
 	color: #005b7f;
@@ -1072,4 +1072,11 @@ a[href^="tel"] {
 }
 .temporary-no-section-txt {
 	-webkit-tap-highlight-color: rgb(17,99,131) !important;
+}
+
+.ph-no-p {
+	-webkit-tap-highlight-color: rgb(255, 255, 255) !important;
+}
+.phone_menu{
+	-webkit-tap-highlight-color: rgb(255, 255, 255) !important;
 }
