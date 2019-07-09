@@ -1064,7 +1064,12 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 .temporary-no-section-txt {
 	-webkit-tap-highlight-color: rgb(17,99,131) !important;
 	color: #116383 !important;
-	color: inherit !important;
+	 color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
 }
 
 .ph-no-p {
