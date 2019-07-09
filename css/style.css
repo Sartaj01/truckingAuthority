@@ -1064,7 +1064,6 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 .video { position: relative; }
 .temporary-no-section-txt {
 	-webkit-tap-highlight-color: rgb(17,99,131) !important;
-	
 }
 
 .ph-no-p {
@@ -1075,5 +1074,5 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 }
 a[href^="tel"] {
 text-decoration: none; 
-    color: #116383 !important;
+    color: #FFF;
 }
