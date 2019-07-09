@@ -1080,3 +1080,15 @@ text-decoration: none;
 text-decoration: none; 
      color: #116383 !important;
 }
+.btn-primary:hover {
+
+}
+.btn-primary:hover {
+	color: #FFF!important;
+	border-color: #FFF!important;
+	background-color: #FFF!important;
+}
+.btn.focus, .btn:focus{
+	box-shadow:transparent!important;
+	outline: none!important;
+}
