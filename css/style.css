@@ -1062,15 +1062,6 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 
 .video { position: relative; }
 
-
-
-
-a[href^="tel"] {
-  color: inherit; /* Inherit text color of parent element. */
-  text-decoration: none; /* Remove underline. */
-  /* Additional css `propery: value;` pairs here */
-  color: #fff !important;
-}
 .temporary-no-section-txt {
 	-webkit-tap-highlight-color: rgb(17,99,131) !important;
 }
