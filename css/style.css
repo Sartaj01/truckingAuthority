@@ -1073,4 +1073,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 .phone_menu{
 	-webkit-tap-highlight-color: rgb(255, 255, 255) !important;
 }
-
+a[href^="tel"] {
+text-decoration: none; 
+    color: #116383 !important;
+}
