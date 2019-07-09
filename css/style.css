@@ -36,7 +36,7 @@ li { list-style:none}
 	width: 40%;
     float: left;
 }
-.ph-no p {
+.ph-no .mobile-no {
 	padding: 14px;
 	margin: 0;
 	color: #005b7f;
