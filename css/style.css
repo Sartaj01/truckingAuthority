@@ -454,8 +454,9 @@ width: 100%
 }
 .temporary-no-section-txt {
 	font-family: 'FranklinGothicLTCom-Bk';
-	font-size: 24px;
-	color: #116383;
+	font-size: 24px !important;
+	color: #116383 !important;
+	    display: inline-block;
 }
 .order-now {
     color: #005b7f;
@@ -1063,13 +1064,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 .video { position: relative; }
 .temporary-no-section-txt {
 	-webkit-tap-highlight-color: rgb(17,99,131) !important;
-	color: #116383 !important;
-	 color: inherit !important;
-  text-decoration: none !important;
-  font-size: inherit !important;
-  font-family: inherit !important;
-  font-weight: inherit !important;
-  line-height: inherit !important;
+	
 }
 
 .ph-no-p {
@@ -1079,8 +1074,3 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 	-webkit-tap-highlight-color: rgb(255, 255, 255) !important;
 }
 
-a[href^="tel"] {
-  color: inherit; 
-   text-decoration: none; 
-    color: #fff !important;
-}

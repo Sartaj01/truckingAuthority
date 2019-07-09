@@ -243,7 +243,7 @@ position: relative;
         position: absolute;
     top: 10px;
     left: 0px;
-    font-size: 17px;
+       font-size: 15px !important;
     width: 117px;
     max-height: 46px;
     overflow: hidden;
@@ -252,6 +252,10 @@ position: relative;
 .temporary-no-section-txt {
   -webkit-tap-highlight-color: rgb(17,99,131) !important;
   color: #116383 !important;
+}
+a[href^="tel"] {
+text-decoration: none; 
+    color: #116383 !important;
 }
 #btn-order{
     position: relative;
