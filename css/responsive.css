@@ -241,18 +241,24 @@ position: relative;
 }
 .temporary-no-section-txt{
         position: absolute;
-    top: 24px;
-    left: 32px;
+    top: 10px;
+    left: 0px;
     font-size: 17px;
     width: 117px;
     max-height: 46px;
     overflow: hidden;
+    color: #116383 !important;
+}
+.temporary-no-section-txt {
+  -webkit-tap-highlight-color: rgb(17,99,131) !important;
+  color: #116383 !important;
 }
 #btn-order{
     position: relative;
     right: -73px;
     top: 10px;
-   padding: 8px 30px 5px 30px;
+    padding: 8px 30px 5px 30px;
+    font-size: 13px;
 
 }
 .padding-btm{
