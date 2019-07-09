@@ -250,14 +250,11 @@ position: relative;
     color: #116383 !important;
     
 }
-.temporary-no-section-txt {
+.temporary-no-section a{
   -webkit-tap-highlight-color: rgb(17,99,131) !important;
   color: #116383 !important;
 }
-a[href^="tel"] {
-text-decoration: none; 
-    color: #116383 !important;
-}
+
 #btn-order{
     position: relative;
     right: -73px;

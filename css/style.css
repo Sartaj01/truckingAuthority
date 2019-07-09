@@ -1076,3 +1076,7 @@ a[href^="tel"] {
 text-decoration: none; 
     color: #FFF;
 }
+.temporary-no-section a[href^="tel"] {
+text-decoration: none; 
+     color: #116383 !important;
+}
