@@ -331,10 +331,7 @@ color: #FFF;
     font-size: 14px;
     margin-bottom: 25px;
 }
-.acquisitions-text-section {
-	width: 60%;
-	float: left;
-}
+
 .acquisitions-text-section h3 {
 	font-family: 'ITCFranklinGothicStd-Book';
 	color: #185e79;
@@ -358,9 +355,7 @@ color: #FFF;
 	cursor: pointer;
 }
 .acquisitions-img-section {
-	width: 100%;
-	max-width: 355px;
-	float: right;
+text-align: right;
 }
 .truking-img-section img{
 width: 100%
@@ -477,6 +472,7 @@ width: 100%
 }
 .video-img-section{
 	overflow: hidden;
+	position: relative;
 }
 /*why keller section End*/
 
@@ -655,6 +651,24 @@ width: 100%
     left:  0;
     top: 45px;
 }
+
+#trucking_slider-faq{
+	position: relative;
+
+}
+#trucking_slider-faq .carousel-control.left 
+{
+    position: absolute;
+    left:  0;
+    top: 145px;
+}
+#trucking_slider-faq .carousel-control.right 
+{
+    position: absolute;
+    right:   0;
+    top: 145px;
+}
+
 .item-section{
 padding: 20px 45px;
 }
@@ -668,12 +682,23 @@ padding: 20px 45px;
     height: 90px;
     background: #fff;
 }
+.testimonial-heading{
+	font-family: 'ITCFranklinGothicStd-Book';
+    color: #185e79;
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 5px;
+        padding-left: 47px;
+}
 
 /*Testimonial end */
 
 
 
 /*Faq Page start*/
+.faq-bg{
+	background:#f6f6f6;
+}
 .faq-head-section {
 	background-color: #fff;
 	    padding: 0 75px 60px 75px;
@@ -729,55 +754,79 @@ position: absolute;
 .image-icon img{
 	    height: 110px;
 }
-.testimonial-content-section {
-	    background-color: #cad8dd;
-    padding: 25px;
+/*faq testmonial start*/
+.testimonial-body{
+	    background: #cad8dd;
+    padding: 15px;
     overflow: hidden;
-    height: 355px;
-      width: 405px;
 }
-.testimonial-content-section h5 {
-	color: #666666;
-	font-size: 14px;
-	font-family: 'FranklinGothicLTCom-Bk';
+
+
+.other-text{
+ font-size: 14px;
+ color: #333;
+  font-family: 'ITCFranklinGothicStd-Book';
+  padding-left: 45px;
 }
-.testimonial-content-section .img-section {
-	text-align: center;
-     height: 213px;
-    overflow: hidden;
-        margin-left: 5px;
+.testimonial-inner-heading{
+    color: #666666;
+    font-family: 'ITCFranklinGothicStd-Book';
+    font-size: 17px;
+    line-height: 18px;
+    padding-bottom: 10px;
+
 }
-.testimonial-content-section .img-section img {height: 100%; max-width: 371px; width: 100%;}
- .testimonial-content-section .down-img-section img{  
-  height: 100%;   
-    min-height: 45px;
+.testimonial-body img{
+	height: 100%;
+	width: 100%
 }
-.custom-padding{
-	padding: 30px 20px 33px 80px;
+.downloade-section{
+	margin-top: 10px;
+
 }
-.testimonial-content-section .down-img-section {
-	text-align: center;
-    height: 32px;
-    border-top: solid 2px #005b7f;
-    margin: 0 auto;
-       padding: 4px 24px 0;
-    width: 80px;
-    margin-top: 10px;
+.downloade-section img{
+height: 30px;
+    width: 30px;
+	
 }
+.top-border{
+	width: 70px;
+	border-top: solid 3px #005b7f;
+	margin:0 auto;
+    padding-bottom: 5px;
+}
+/*faq testmonial end*/
 .slide-border-bottom {
 	border-bottom: solid 4px #005b7f;
 }
 .qustion-bg {
 	background-color: #f6f6f6;
 }
+.btn-play{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 99;
+	background-image: url(../images/play.png);
+	height: 40px;
+	width: 40px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+
+}
 /*Faq page end*/
 
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+.btn-primary:not(:disabled):not(.disabled).active, 
+.btn-primary:not(:disabled):not(.disabled):active,
+ .show>.btn-primary.dropdown-toggle {
     color: unset;
     background-color: unset;
     border-color: unset;
 }
-.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+.btn-primary:not(:disabled):not(.disabled).active:focus, 
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+ .show>.btn-primary.dropdown-toggle:focus {
     box-shadow:unset;
 }
 .btn-primary.focus, .btn-primary:focus {

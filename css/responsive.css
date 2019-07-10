@@ -464,6 +464,13 @@ padding: 0 10px;
 .mobile-none{
   display: none;
 }
+.testimonial-heading{
+  text-align: center;
+  padding: 0;
+}
+.testi-mob{
+  display: none;
+}
 }
 @media only screen and (max-width: 1024px) and (min-width: 768px)  {
 .navbar-expand-md .navbar-nav .nav-link{
