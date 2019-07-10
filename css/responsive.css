@@ -196,13 +196,15 @@ font-size: 12px;
 }
 
 .faq-txt-section {
-background-color: #d5e2e8;
 height: auto;  
-min-height: 315px;
+min-height: 500px;
 }
 .image-icon {  
-right: 7px;  
-bottom: 22px;
+right: 40px;  
+bottom: 20px;
+}
+.image-icon img {
+    height: 85px;
 }
 .acquisitions-text-section{
 width: 100%;
@@ -431,7 +433,10 @@ padding: 0 10px;
 .perro-service-heading {
    top: -19px;
 }
-.navbar-dark.custome_nav .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+.navbar-dark.custome_nav .navbar-nav .active>.nav-link,
+ .navbar-dark .navbar-nav .nav-link.active, .navbar-dark
+  .navbar-nav .nav-link.show, .navbar-dark
+   .navbar-nav .show>.nav-link {
        background-color: #666666!important;
     color: #fff;
 }
@@ -439,7 +444,26 @@ padding: 0 10px;
     outline:none;
      outline: none;
 }
-
+.contant-section {
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(#ccdee5, #FFF);
+}
+.text-first-text{
+    text-align: center;
+    color: #666;
+     font-family: 'ITCFranklinGothicStd-Book';
+}
+.question-section{
+  padding: 0 55px;
+}
+.btn-section-quest{
+  width: 100%;
+  text-align: center;
+}
+.mobile-none{
+  display: none;
+}
 }
 @media only screen and (max-width: 1024px) and (min-width: 768px)  {
 .navbar-expand-md .navbar-nav .nav-link{
@@ -540,7 +564,33 @@ button:focus {
 outline:none;
 outline: none;
 }
-
+.mobile-none{
+  display: none;
+}
+.simple-header{
+  padding: 0;
+}
+.contain-section{
+  padding: 0;
+}
+.faq-txt-section{
+  padding: 0px;
+}
+.faq-txt-heading {
+    font-size: 16px;   
+    padding: 6px 35px; 
+    text-align: center;   
+    line-height: 25px;
+}
+.faq-txt-section-p-txt{
+  font-size: 14px;
+}
+.image-icon {
+    position: absolute;
+    right: 50px;
+    z-index: 9999;
+    bottom: 19px;
+  }
 }
 
 

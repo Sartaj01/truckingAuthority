@@ -76,7 +76,7 @@ li { list-style:none}
     font-family: 'FranklinGothicLTCom-Bk';
 }
 .auth-text {
-	       padding: 3px 0px 3px 111px;
+	    padding: 3px 0px 3px 100px;
 }
 /*banner image start*/
 
@@ -293,12 +293,14 @@ color: #FFF;
 
 
 /*acquisitions section start*/
-
+.test-bg-color{
+	background-image: linear-gradient(#73a5b9, #FFF);
+}
 .acquisitions-section {
 	background-color: #FFF;
 	width: 100%;
 	margin: 0 auto;
-	    padding: 25px 25px 29px 85px;
+	padding: 20px 100px 20px 100px;
 	overflow: hidden;
 }
 .faq-btn-section{
@@ -363,9 +365,7 @@ color: #FFF;
 .truking-img-section img{
 width: 100%
 }
-.truking-img-section{
-	    padding: 0 69px 13px 2px;
-}
+
 /*acquisitions section end*/
 
 
@@ -496,7 +496,7 @@ width: 100%
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	height: 500px;
+	    height: 465px;
 	width: 100%;
 }
 .hero-text-topic {
@@ -526,18 +526,19 @@ width: 100%
 	color: #FFF;
 }
 .contant-section {
-	padding: 25px 80px;
+    padding: 20px 117px 20px 117px;
 	background-image: linear-gradient(#ccdee5, #FFF);
 }
-.text-first-section h2 {
-	font-size: 17px;
+.text-first-heading {
+	font-size: 20px;
 	font-family: 'ITCFranklinGothicStd-Book';
 	color: #005b7f;
 	font-weight: 500;
 }
-.text-first-section p {
+.text-first-text {
 	color: #333333;
-	font-size: 13px;
+	font-size: 16px;
+	font-family: 'ITCFranklinGothicStd-Book';
 }
 .news-section {
 	border: solid 1px #a9afb2;
@@ -564,6 +565,7 @@ width: 100%
 	font-family: 'ITCFranklinGothicStd-Book';
 	font-size: 13px;
 	color: #333333;
+	text-align: left;
 }
 .resources-section {
 	border: solid 1px #a9afb2;
@@ -592,6 +594,7 @@ width: 100%
 	font-family: 'ITCFranklinGothicStd-Book';
 	font-size: 13px;
 	color: #333333;
+	text-align: left;
 }
 .resources-section .learn-more {
 	color: #FFF;
@@ -609,12 +612,8 @@ width: 100%
 	background-repeat: no-repeat;
 	background-position: center;
 }
-.acquisitions-text-section ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-.acquisitions-text-section ul li {
+
+.acquisitions-text-section a {
 	background-image: url(../images/list-icon.png);
 	background-repeat: no-repeat;
 	font-size: 12px;
@@ -622,6 +621,7 @@ width: 100%
 	background-position-y: 8px;
 	line-height: 22px;
 	padding: 5px 24px;
+	text-decoration: none;
 }
 .border-faq {
 	border-top: solid 6px #005b7f;
@@ -634,51 +634,50 @@ width: 100%
 .border-faq .order-now {
 	background-color: #aadaf1;
 }
+.border-both{
+	    border-top: solid 6px #005b7f;
+    border-bottom: solid 6px #005b7f;
+}
 /*Testimonial Start */
-.item {
-	background: #FFF;
-	text-align: center;
-	height: 300px;
+#trucking_slider{
+	position: relative;
+
 }
-.item h2 {
-	margin: 0;
-	color: #888;
-	padding-top: 80px;
-	font-size: 30px;
+#trucking_slider .carousel-control.right 
+{
+    position: absolute;
+    right: 0;
+    top: 45px;
 }
+#trucking_slider .carousel-control.left 
+{
+    position: absolute;
+    left:  0;
+    top: 45px;
+}
+.item-section{
+padding: 20px 45px;
+}
+.testimonial-img img{
+	height: 100%;
+	width: 100%;
+
+}
+.testimonial-img{
+	    border: solid 1px #000;
+    height: 90px;
+    background: #fff;
+}
+
 /*Testimonial end */
 
-/*add or video start*/
-.video-add-zone {
-	background: #f7f7f7;
-	    padding: 25px 25px 29px 85px;
-}
-.video-add-zone h2 {
-	font-family: 'ITCFranklinGothicStd-Book';
-	color: #185e79;
-	text-align: left;
-	font-size: 18px;
-}
-.video-add-zone p {
-	font-size: 13px;
-	color: #333333;
-	font-family: 'ITCFranklinGothicStd-Book';
-}
-.border-both {
-	border-top: solid 6px #005b7f;
-	border-bottom: solid 4px #005b7f;
-}
-.border-blue-bottom {
-	border-bottom: solid 6px #005b7f;
-}
-/*add or video end*/
 
-/*Topic page end*/
 
 /*Faq Page start*/
 .faq-head-section {
 	background-color: #fff;
 	    padding: 0 75px 60px 75px;
+	    overflow: hidden;
 }
 .faq-img-section {
 	height: 400px;
@@ -689,7 +688,6 @@ width: 100%
 	width: 100%;
 }
 .faq-txt-section {
-	background-color: #d5e2e8;
 	padding: 30px;
 	height: auto;
 	height: 100%;
@@ -914,10 +912,10 @@ color: #FFF;
 
 /*simple page*/
 .simple-header{
-padding: 0 75px 60px 115px;
+    padding: 0 100px 60px 100px;
 }
 .simple-section{
-	    padding: 20px 20px 20px 100px;
+	        padding: 20px 100px 20px 100px;
 	    border-top: none;
     border-bottom: none;
     background-color: #e5eef2;
@@ -930,10 +928,7 @@ padding: 0 75px 60px 115px;
     text-transform: capitalize;
 }
 
-.testimonial-img{
-	    border: solid 1px #000;
-    height: 90px;
-}
+
 
 
 /*slider*/
