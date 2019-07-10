@@ -643,13 +643,13 @@ width: 100%
 {
     position: absolute;
     right: 0;
-    top: 45px;
+   top: 67px;
 }
 #trucking_slider .carousel-control.left 
 {
     position: absolute;
     left:  0;
-    top: 45px;
+  top: 67px;
 }
 
 #trucking_slider-faq{
