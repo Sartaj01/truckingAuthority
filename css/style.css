@@ -733,11 +733,13 @@ padding: 20px 45px;
     line-height: 40px;
 }
 .faq-txt-section-p-txt {
-	color: #272425;
-	font-size: 17px;
-	text-align: center;
-	font-family: 'ITCFranklinGothicStd-Book';
-	    padding: 20px;
+color: #272425;
+font-size: 17px;
+text-align: center;
+font-family: 'ITCFranklinGothicStd-Book';
+padding: 20px;
+max-height: 195px;
+overflow: hidden;
 }
 .more-info {
 	width: 100%;
@@ -977,7 +979,10 @@ color: #FFF;
     text-transform: capitalize;
 }
 
-
+.text-section{
+    padding: 12px 60px 0 0px;
+    overflow: hidden;
+}
 
 
 /*slider*/

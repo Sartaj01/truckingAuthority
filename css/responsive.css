@@ -198,6 +198,7 @@ font-size: 12px;
 .faq-txt-section {
 height: auto;  
 min-height: 500px;
+padding: 60px;
 }
 .image-icon {  
 right: 40px;  
@@ -341,6 +342,7 @@ width: 100%;
 .truking-p-txt{
   text-align: center;
   color: #666;
+  font-size: 13px;
 }
 .btn-section{
    text-align: center;
@@ -471,6 +473,18 @@ padding: 0 10px;
 .testi-mob{
   display: none;
 }
+.text-section{
+  padding: 0;
+    font-size: 13px;
+}
+.faq-txt-heading{
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+.faq-txt-section-p-txt { 
+    font-size: 13px;  
+    letter-spacing: 0px;
 }
 @media only screen and (max-width: 1024px) and (min-width: 768px)  {
 .navbar-expand-md .navbar-nav .nav-link{
@@ -578,7 +592,7 @@ outline: none;
   padding: 0;
 }
 .contain-section{
-  padding: 0;
+  /*padding: 0;*/
 }
 .faq-txt-section{
   padding: 0px;
@@ -591,6 +605,7 @@ outline: none;
 }
 .faq-txt-section-p-txt{
   font-size: 14px;
+      max-height: 190px;
 }
 .image-icon {
     position: absolute;
@@ -598,6 +613,12 @@ outline: none;
     z-index: 9999;
     bottom: 19px;
   }
+  .text-section {
+    padding: 0;
+}
+.faq-txt-heading{
+  font-size: 22px;
+}
 }
 
 
