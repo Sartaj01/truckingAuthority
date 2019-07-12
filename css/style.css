@@ -502,9 +502,11 @@ width: 100%
 	z-index: 0;
 }
 .hero-text-topic h2 {
-	color: #fff;
-	padding-bottom: 20px;
-	font-size: 24px;
+	    color: #fff;
+    padding-bottom: 20px;
+    font-size: 24px;
+    max-width: 100%;
+    overflow: hidden;
 }
 .hero-text-topic .order-btn {
 	border: solid 1px #FFF;
@@ -720,17 +722,18 @@ padding: 20px 45px;
 	position: relative;
 }
 .faq-txt-heading {
-	    font-size: 24px;
+	     font-size: 24px;
     font-family: 'FranklinGothicLTCom-Bk';
     color: #005b7f;
     font-weight: 500;
     border-bottom: solid 3px #005b7f;
-    padding: 6px;
-    width: 100%;
+      width: 100%;
     text-align: center;
     margin: 0 auto;
     padding: 10px;
-    line-height: 40px;
+    line-height: 32px;
+    max-height: 115px;
+    overflow: hidden;
 }
 .faq-txt-section-p-txt {
 color: #272425;
@@ -745,12 +748,12 @@ overflow: hidden;
 	width: 100%;
 }
 .image-icon {
-position: absolute;
-    right: -16px;
+    position: absolute;
+    right: -26px;
     z-index: 9999;
-    bottom: -17px;
-    height: 110px;
-    width: 110px;
+    bottom: -38px;
+    height: 100px;
+    width: 103px;
   
 }
 .image-icon img{
@@ -980,8 +983,9 @@ color: #FFF;
 }
 
 .text-section{
-    padding: 12px 60px 0 0px;
+   padding: 12px 60px 0 0px;
     overflow: hidden;
+    max-height: 180px;
 }
 
 
