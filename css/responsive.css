@@ -76,6 +76,15 @@ font-size: 16px;
 .truking-section{
   padding: 0;
 }
+.mobile-none{
+  display: none;
+}
+.mobile-center{
+  text-align: center;
+}
+.truking-heading{
+  text-align: center;
+}
 }
 
 @media only screen and (max-width: 676px) and (min-width: 320px)  {
@@ -653,8 +662,7 @@ height: 88px;
 .truking-p-txt {
     font-size: 14px;
 }
-
-}
+display}
 
 
 

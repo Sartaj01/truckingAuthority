@@ -644,13 +644,13 @@ width: 100%
 #trucking_slider .carousel-control.right 
 {
     position: absolute;
-    right: 0;
+    right:  -50px;
    top: 67px;
 }
 #trucking_slider .carousel-control.left 
 {
     position: absolute;
-    left:  0;
+   left:  -50px;
   top: 67px;
 }
 
@@ -658,18 +658,7 @@ width: 100%
 	position: relative;
 
 }
-#trucking_slider-faq .carousel-control.left 
-{
-    position: absolute;
-    left:  -50px;
-    top: 145px;
-}
-#trucking_slider-faq .carousel-control.right 
-{
-    position: absolute;
-    right:  -50px;
-    top: 145px;
-}
+
 
 .item-section{
 padding: 20px 0px;
@@ -845,7 +834,12 @@ height: 30px;
     box-shadow: unset !important;
 }
 
-
+.topic-ustom-pd{
+	    padding: 20px 115px;
+}
+.qustion-padding{
+	    padding: 20px 60px;
+}
 
 /*footer*/
  .cust-footer{padding: 20px 20px 20px 83px !important;}
