@@ -523,6 +523,22 @@ padding: 0 10px;
     right:  0px;
     top: 145px;
 }
+.item-section {
+    padding: 20px 45px;
+}
+#trucking_slider .carousel-control.left{
+      position: absolute;
+    left: 0px;
+    top: 67px;
+}
+#trucking_slider .carousel-control.right {
+    position: absolute;
+    right: 0px;
+    top: 67px;
+}
+.bordr-mob{
+  border-top:unset;
+}
 }
 @media only screen and (max-width: 1024px) and (min-width: 768px)  {
 .navbar-expand-md .navbar-nav .nav-link{
