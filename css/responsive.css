@@ -537,7 +537,7 @@ padding: 0 10px;
     top: 67px;
 }
 .bordr-mob{
-  border-top:unset;
+  border-top:unset !important;
 }
 }
 @media only screen and (max-width: 1024px) and (min-width: 768px)  {
