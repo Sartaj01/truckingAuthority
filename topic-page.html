@@ -54,7 +54,7 @@
 
         </ul>
           </li>
-          <li class="nav-item active"> <a class="nav-link" href="faq-page.html">faqs</a> 
+          <li class="nav-item "> <a class="nav-link" href="faq-page.html">faqs</a> 
 
        <ul class="drop-down">
           <li><a href="">Products</a></li>
@@ -67,7 +67,7 @@
         </ul>
           </li>
           <li class="nav-item"> <a class="nav-link" href="simple-page.html">resources</a> </li>
-          <li class="nav-item "> <a class="nav-link " href="topic-page.html">why j.j.keller</a>
+          <li class="nav-item active"> <a class="nav-link " href="topic-page.html">why j.j.keller</a>
  <ul class="drop-down">
           <li><a href="">Products</a></li>
           <li><a href="">Products</a></li>
@@ -172,7 +172,7 @@
               <li>Frequently Asked Questions</li>
               <li>10 Basic Rules of Driver Hiring</li>
             </ul>
-            <div class="pull-right mr-2">
+            <div class="pull-right mr-2 resources-btn">
              <button class="learn-more">Learn More</button>
             </div>
           </div>
@@ -469,13 +469,13 @@
           <div class="mobile-view mt-20 pt-20 video-img-section truking-img">
 
      
-  <!--   <img src="images/banner.jpg" alt=""> -->
+  <img src="images/banner.jpg" alt="" data-toggle="modal" data-target="#imagesModal">
   
   
 
   
   <!-- Button trigger modal -->
-            <div  class="btn-play" data-toggle="modal" data-target="#myModal"></div>
+           <!--  <div  class="btn-play" data-toggle="modal" data-target="#myModal"></div>
             <button  type="button" class="btn btn-primary video-btn" data-toggle="modal" controls="controls"  data-target="#myModal">
               <video  width="100%" height="100%"   class="video" >
                 <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4#t=0.5" type="video/mp4">
@@ -485,7 +485,7 @@
                   <div class="bg" style="position: absolute; height: 100%; width: 100%; top: 0;" controls="controls" data-toggle="modal"  data-target="#myModal">
 
                   </div>
-                </button>
+                </button> -->
   
   
 
@@ -521,8 +521,26 @@
       </div>
     </div>
   </div>
-  <footer>
+<!-- img popup start-->
+   <div class="modal fade" id="imagesModal" tabindex="-1" role="dialog" aria-labelledby="dsd" aria-hidden="true">
+       <div class="modal-dialog modal-dialog-centered" role="document">
+           <div class="modal-content customemodal">
+               <div class="modal-header img-model">
 
+                   <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close">
+                       <span aria-hidden="true">&times;</span>
+                   </button>
+               </div>
+               <div class="modal-body modal-body-video">
+                   <center>
+                       <img src="images/banner.jpg" width="100%">
+                   </center>
+               </div>
+
+           </div>
+       </div>
+   </div>
+<!-- img popup end-->
 
 
 

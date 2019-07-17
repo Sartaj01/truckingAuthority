@@ -646,13 +646,13 @@ width: 100%
 {
     position: absolute;
     right:  -50px;
-   top: 67px;
+   top:50%;
 }
 #trucking_slider .carousel-control.left 
 {
     position: absolute;
    left:  -50px;
-  top: 67px;
+  top:50%;
 }
 
 #trucking_slider-faq{
@@ -665,13 +665,14 @@ width: 100%
 padding: 20px 0px;
 }
 .testimonial-img img{
-	height: 100%;
+	height: 200px;
+	
 	width: 100%;
 
 }
 .testimonial-img{
 	    border: solid 1px #000;
-    height: 90px;
+    height: auto;
     background: #fff;
 }
 .testimonial-heading{
@@ -715,7 +716,6 @@ padding: 20px 0px;
 	padding: 30px;
 	height: auto;
 	height: 100%;
-	max-height: 400px;
 	position: relative;
 }
 .faq-txt-heading {
@@ -729,17 +729,17 @@ padding: 20px 0px;
     margin: 0 auto;
     padding: 10px;
     line-height: 32px;
-    max-height: 115px;
+    height: auto;
     overflow: hidden;
 }
 .faq-txt-section-p-txt {
-color: #272425;
-font-size: 17px;
-text-align: center;
-font-family: 'ITCFranklinGothicStd-Book';
-padding: 20px;
-max-height: 195px;
-overflow: hidden;
+    color: #272425;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'ITCFranklinGothicStd-Book';
+    padding: 20px;
+    height: auto;
+    overflow: hidden;
 }
 .more-info {
 	width: 100%;
@@ -747,7 +747,7 @@ overflow: hidden;
 .image-icon {
     position: absolute;
     right: -26px;
-    z-index: 9999;
+    z-index: 2;
     bottom: -38px;
     height: 100px;
     width: 103px;
@@ -987,7 +987,7 @@ color: #FFF;
 .text-section{
    padding: 12px 60px 0 0px;
     overflow: hidden;
-    max-height: 180px;
+  height: auto;
 }
 
 
@@ -1180,6 +1180,28 @@ li:hover ul {
 /* end dropdown */
 
 
+.customemodal{
+    background: transparent;
+    border: none;
+}
+.img-model{
+	 border: none;
 
+}
 
+ .modal-dialog-centered{
+    max-width: 800px;
+    margin: 1.75rem auto;
+}
+.close-btn{
+position: absolute;
+right: 0;
+color: #FFF;
+}
+.resources-btn{
+float: right;
+}
+.small, small {
+	float: right;
 
+}
