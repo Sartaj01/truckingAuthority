@@ -139,9 +139,9 @@ li { list-style:none}
     width: 407px;
 }
 .carousel-indicators {
-    right: unset !important;
-    left: -21px;
+      left: unset;
     bottom: 33px;
+    right: 176px !important;
 }
  .no-text{
         padding: 13px 0;
@@ -164,6 +164,18 @@ li { list-style:none}
 }
 .headewr-btn{
 	display: none;
+}
+.description {
+    position: absolute;
+    right: 6%;
+    bottom: 0 !important;
+    top: 0 !important;
+  left:unset;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
 }
 /*Header section end*/
 
@@ -363,8 +375,16 @@ width: 100%
 }
 
 /*acquisitions section end*/
-
-
+#trucking_slider-faq .carousel-control.right {
+	position: absolute;
+	top:50%;
+	right: -60px;
+}
+#trucking_slider-faq .carousel-control.left {
+	position: absolute;
+	top:50%;
+	left: -60px;
+}
 /*why keller section start*/
 
 
@@ -444,9 +464,13 @@ width: 100%
 	color: #005b7f;
 }
 .temporary-no-section {
-	float: left;
+	    float: left;
     text-align: center;
     padding: 0 67px;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    word-break: break-word;
 }
 .temporary-no-section-txt {
 	font-family: 'FranklinGothicLTCom-Bk';
@@ -665,8 +689,8 @@ width: 100%
 padding: 20px 0px;
 }
 .testimonial-img img{
-	height: 200px;
-	
+	min-height: 200px;
+	height: 100%;	
 	width: 100%;
 
 }
@@ -723,7 +747,7 @@ padding: 20px 0px;
     font-family: 'FranklinGothicLTCom-Bk';
     color: #005b7f;
     font-weight: 500;
-    border-bottom: solid 3px #005b7f;
+   border-bottom: solid 3px #005b7f;
       width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -731,6 +755,9 @@ padding: 20px 0px;
     line-height: 32px;
     height: auto;
     overflow: hidden;
+}
+.faq-txt-heading span{
+	  border-bottom: solid 3px #005b7f;
 }
 .faq-txt-section-p-txt {
     color: #272425;
@@ -1148,34 +1175,16 @@ text-decoration: none;
 	outline: none!important;
 }
 /* dropdown menu */
-.nav-item{position: relative;}
-li ul {
-	display: none;
-	margin: 0;
-    padding: 0;
-    	z-index: 9999999;
+.navbar-nav{
+	align-items: center;
 }
-.drop-down{width:100%;}
-
-.nav-item ul li a {
-	display: block;
-	text-decoration: none;
-	color: #ffffff;
-	padding: 5px 15px 5px 15px;
-	background: #666;
-    text-transform: uppercase;
-    font-size: 12px;
-    
+.dropdown-menu{width:100%;}
+.navbar-dark .navbar-nav .nav-link:focus,  .navbar-dark .navbar-nav .nav-link:hover {
+   background-color: #005b7f;
 }
 
-
-li:hover ul {
-	display: block;
-	position: absolute;
-
-}
-.nav-item ul li a:hover{
-	background-color: #005b7f;
+.btco-hover-menu .collapse ul ul, .btco-hover-menu .collapse ul ul.dropdown-menu {
+ background-color: #666666!important;
 }
 /* end dropdown */
 
@@ -1205,3 +1214,27 @@ float: right;
 	float: right;
 
 }
+.lern-more:hover{
+	text-decoration: none;
+    color: #FFF;
+    background-color: rgb(7, 74, 101);
+}
+.dropdown-toggle::after{
+	display: unset;
+    width:unset;
+    height: unset;
+    margin-left: unset;
+    vertical-align: unset;
+    content: "";
+    border-top: unset;
+    border-right: unset;
+    border-bottom: unset;
+    border-left:unset;
+}
+#slider-carousel .carousel-item{
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+   -o-transition: -o-transform .5s ease-in-out;
+   transition: transform .5s ease-in-out;
+
+  }
+

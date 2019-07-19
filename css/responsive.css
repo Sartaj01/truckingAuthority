@@ -77,13 +77,24 @@ font-size: 16px;
   padding: 0;
 }
 .mobile-none{
-  display: none;
+ /* display: none;*/
+}
+.ph-no-p{
+  margin-left: -14px;
 }
 .mobile-center{
   text-align: center;
 }
 .truking-heading{
   text-align: center;
+}
+.image-icon {
+  position: unset;
+     float: right;
+    margin-bottom: 41px;
+}
+.navbar-nav{
+  align-items: unset;
 }
 }
 
@@ -261,7 +272,7 @@ width: 100%;
 .temporary-text-section-p {
     font-size: 11px;
     padding-top: 10px;
-    max-height: 140px;
+    height:auto;
     overflow: hidden;
 }
 .temporary-no-section {
@@ -272,12 +283,10 @@ position: relative;
 }
 .temporary-no-section-txt{
         position: absolute;
-    top: 10px;
-    left: 0px;
+      left: 0px;
        font-size: 15px !important;
     width: 117px;
-    max-height: 46px;
-    overflow: hidden;
+    height:auto;
     color: #116383 !important;
     
 }
@@ -289,8 +298,7 @@ position: relative;
 #btn-order{
     position: relative;
     right: -73px;
-    top: 10px;
-    padding: 8px 30px 5px 30px;
+        padding: 8px 30px 5px 30px;
     font-size: 13px;
 
 }
@@ -507,21 +515,28 @@ padding: 0 10px;
     line-height: 24px;
     letter-spacing: 0px;
 }
+/*.faq-txt-heading:after{
+  position: absolute;
+  content: '';
+  width: 80%;
+  border-top: 2px #f0f solid;
+}*/
 .faq-txt-section-p-txt { 
     font-size: 13px;  
     letter-spacing: 0px;
+    text-align: left;
 }
 #trucking_slider-faq .carousel-control.left 
 {
     position: absolute;
     left:  0px;
-    top: 145px;
+      top: 50%
 }
 #trucking_slider-faq .carousel-control.right 
 {
     position: absolute;
     right:  0px;
-    top: 145px;
+    top: 50%
 }
 .item-section {
     padding: 20px 45px;
@@ -538,6 +553,12 @@ padding: 0 10px;
 }
 .bordr-mob{
   border-top:unset !important;
+}
+.navbar-nav{
+  align-items: unset;
+}
+#trucking_slider .carousel-item{
+  min-height: auto !important;
 }
 }
 @media only screen and (max-width: 1024px) and (min-width: 768px)  {
@@ -677,7 +698,14 @@ outline: none;
 .truking-p-txt {
     font-size: 14px;
 }
-display}
+.navbar-nav{
+  align-items: unset;
+}
+
+#trucking_slider .carousel-item{
+  min-height: auto !important;
+}
+}
 
 
 
