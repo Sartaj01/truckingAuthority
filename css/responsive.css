@@ -96,6 +96,19 @@ font-size: 16px;
 .navbar-nav{
   align-items: unset;
 }
+.topic-img-section{
+  position: absolute;
+    left: -50px;
+}
+.topic-text-tab{
+  padding: 0 40px;
+}
+.contant-section{
+  padding: 20px 44px;
+}
+.topic-img-section {
+  left: 39px;
+}
 }
 
 @media only screen and (max-width: 676px) and (min-width: 320px)  {
@@ -369,8 +382,9 @@ padding: 100px 0;
 width: 100%;
 }
 .truking-heading{
-  text-align: center;
-     padding: 18px 0px 8px 0px;
+      text-align: center;
+    padding: 18px 30px 0px 30px;
+    font-size: 15px;
 }
 .truking-p-txt{
   text-align: center;
@@ -490,7 +504,11 @@ padding: 0 10px;
      font-family: 'ITCFranklinGothicStd-Book';
 }
 .question-section{
-  padding: 0 55px;
+  padding: 0 25px;
+}
+.panel-title{
+  margin:0;
+  padding: 0;
 }
 .btn-section-quest{
   width: 100%;
@@ -559,6 +577,44 @@ padding: 0 10px;
 }
 #trucking_slider .carousel-item{
   min-height: auto !important;
+}
+.topic-banner {  
+    height: 200px;  
+  }
+  .banner-topic{
+    height: auto;
+  }
+  .topic-img{
+    display: none;
+  }
+  .topic-img-section{
+  height: 100px;
+    text-align: center;
+    width: 100%;
+  }
+  .topic-img-section img {
+    position: unset;
+    left: unset;
+    height: unset;
+    top: unset;
+}
+.topic-text-section{
+  text-align: center;
+}
+.no-mob{
+    width: 100%;
+    word-break: break-all;
+    text-align: center;
+    margin-top: 10px;
+}
+.no-section{
+  height: 55px;
+}
+.item-section p{
+  font-size: 11px;
+}
+.item-section small{
+  font-size: 10px;
 }
 }
 @media only screen and (max-width: 1024px) and (min-width: 768px)  {
@@ -704,6 +760,12 @@ outline: none;
 
 #trucking_slider .carousel-item{
   min-height: auto !important;
+}
+.img-tab {
+    display: block;
+}
+.no-section{
+  padding: 0;
 }
 }
 
