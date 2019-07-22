@@ -119,11 +119,11 @@ and (orientation : landscape) {
 
 .logo-first {
     
-    width: 10% !important;
+    width: 15% !important;
 }
   .logo-sec {
   
-    width: 90% !important;
+    width: 85% !important;
 }
 }
 
@@ -632,6 +632,9 @@ padding: 0 10px;
 }
 .item-section small{
   font-size: 10px;
+}
+.mobile-none-section{
+  display: none;
 }
 }
 @media only screen and (max-width: 1024px) and (min-width: 768px)  {
