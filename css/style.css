@@ -858,6 +858,9 @@ height: 30px;
 	cursor: pointer;
 
 }
+.testimonial-img-faq{
+	padding: 30px;
+}
 /*Faq page end*/
 
 .btn-primary:not(:disabled):not(.disabled).active, 
@@ -1257,3 +1260,26 @@ float: right;
    transition: transform .5s ease-in-out;
 
   }
+
+/*carousel-fade effact*/
+.carousel-fade .carousel-item {
+    opacity: 0;
+    transition: opacity ease-out .9s;
+    transition-property: opacity;
+     -webkit-transition: opacity 5s ease;
+       -o-transition: opacity 5s ease;
+          transition: opacity 5s ease;
+  -webkit-transform: translate3d(0, 0, 0) !important;
+          transform: translate3d(0, 0, 0) !important;
+}
+
+.carousel-fade .carousel-item.active {
+  opacity: 1 !important;
+  z-index: 1;
+  -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+      transition: opacity .75s ease-in;
+
+
+}
+/*carousel-fade effact*/
