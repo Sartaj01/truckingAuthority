@@ -522,9 +522,9 @@ width: 100%
 }
 .hero-text-topic {
 	height: 100%;
-	    padding: 40px 85px;
-	width: 100%;
-	z-index: 0;
+    padding: 23px 82px;
+    width: 100%;
+    z-index: 0;
 }
 .hero-text-topic h2 {
 	    color: #fff;
@@ -532,6 +532,7 @@ width: 100%
     font-size: 24px;
     max-width: 100%;
     overflow: hidden;
+        height: 265px;
 }
 .hero-text-topic .order-btn {
 	border: solid 1px #FFF;
@@ -665,7 +666,7 @@ width: 100%
        text-align: center;
     position: absolute;
     left: 50%;
-    top: 35%;
+    /*top: 7%;*/
 
 }
 .topic img {
