@@ -576,6 +576,7 @@ width: 100%
 	color: #326f87;
 	font-family: 'ITCFranklinGothicStd-Book';
 	margin: 0;
+	    text-align: left;
 }
 .body-news {
 	padding: 10px 0;
@@ -604,6 +605,7 @@ width: 100%
 	color: #326f87;
 	font-family: 'ITCFranklinGothicStd-Book';
 	margin: 0;
+	    text-align: left;
 }
 .body-resources {
 	padding: 10px 0;
