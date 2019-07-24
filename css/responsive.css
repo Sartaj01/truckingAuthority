@@ -480,6 +480,7 @@ padding: 0 10px;
 .temp-img-section img{
     height: 95px;
     top: -10px;
+    max-height: 95px;
 }
 #video-fream {
         height: 126px;
@@ -638,6 +639,11 @@ padding: 0 10px;
 .mobile-none-section{
   display: none;
 }
+.other-text{
+  text-align: center;
+    padding: 0 20px;
+}
+
 }
 @media only screen and (max-width: 1024px) and (min-width: 768px)  {
 .navbar-expand-md .navbar-nav .nav-link{

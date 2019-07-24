@@ -91,6 +91,7 @@ li { list-style:none}
         text-align: left;
         text-transform: capitalize;
         font-family: 'ArialNarrow';
+            line-height: 40px;
 }
 .order-btn {
 	border: solid 1px #FFF;
@@ -700,7 +701,9 @@ width: 100%
 
 }
 
-
+.inner-section{
+	overflow: unset;
+}
 .item-section{
 padding: 20px 0px;
 }
@@ -958,6 +961,8 @@ color: #FFF;
     font-size: 12px;
     text-align: right;
     padding-right: 37px;
+        position: absolute;
+    bottom: 0px;
 }
 
 .custom-padding-footer{
@@ -996,6 +1001,7 @@ color: #FFF;
 	color: #fff;
 	font-size: 12px;
 	display: none;
+
 }
 .navbar-dark .navbar-toggler {
 	color: #FFF;
@@ -1268,7 +1274,7 @@ float: right;
 
 .carousel-fade .carousel-item {
  opacity: 0;
- transition-duration: .6s;
+ transition-duration: .9s;
  transition-property: opacity;
 }
 
