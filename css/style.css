@@ -277,7 +277,7 @@ li { list-style:none}
 	padding-bottom: 15px;
 }
 .btn-section{
-	margin: 8px 0px 10px 0px;
+	margin: 30px 0px 10px 0px;
 }
 .truking-p-txt {
 	font-size: 16px;
@@ -1433,7 +1433,24 @@ select {
 .product-services .leadgen__form .form-inline label {
     display: block;
 }
-
+.f-heading{
+	    color: #43443f;
+    font-weight: 700;
+    text-align: center;
+}
+.f-phno{
+	    color: #222 !important;
+	    font-weight: bold;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.form-heading-section{
+ margin: 0 auto;
+    width: 90%
+}
+.form-ptxt{
+	margin:25px;
+}
 /*form*/
 
 /*slider*/
