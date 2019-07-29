@@ -1,8 +1,178 @@
 
 
-@media only screen 
-and (min-device-width : 400px) 
-and (max-device-width : 1024px) 
+
+/*@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) {
+
+.logo-first {
+    
+    width: 15% !important;
+}
+  .logo-sec {
+  
+    width: 85% !important;
+}
+}*/
+
+
+
+
+
+@media only screen and (max-width: 1024px) and (min-width: 768px)  {
+.navbar-expand-md .navbar-nav .nav-link{
+padding-right:0;
+}
+.logo-section{
+width: 60%;
+ overflow: hidden;
+
+}
+.logo-first {
+    float: left;
+       width: 20%;
+}
+.logo-sec{
+    float: right;
+    margin:0;
+       width: 80%;
+}
+.header-text{
+width: 40%;
+}
+.button-auth {
+     padding: 5px 10px 10px 10px;
+ }
+ .main-heading{
+margin: 0 0 5px;
+    padding: 0;
+    max-height: 100px;
+       min-height: 115px;
+    height: 100%;
+    font-size: 25px;
+ }
+ .truking-section{
+        padding: 20px 30px 20px 30px;
+ }
+ .temporary-section{
+    padding: 20px 15px 20px 15px;
+      
+ }
+
+ .footer-head{
+    padding: 4px 1px 7px 30px;
+ }
+ .footer-body{
+        padding: 4px 4px 7px 30px;
+ }
+ 
+ .headewr-btn{
+    display: none !important;
+ }
+ .ucr-box-section .ucr-box{
+    margin-top: 15px;
+ }
+ .carousel-indicators {
+   display: none;
+}
+#video-fream {
+   width: 100%;
+   }
+.logo-sec img {
+    height: 73px;
+}
+.temp-img-section img {
+    position: absolute;
+    left: -15px;
+    height: 100px;
+    top: -11px;
+}
+.temporary-text-section {
+    width: 100%;
+    
+}
+.temporary-text-section {
+    width: 100%;
+    margin-left: 50px;
+}
+
+.no-text {
+     padding: 10px 0;
+    font-size: 12px;
+    max-height: 50px;
+    line-height: 19px;
+    overflow: hidden;
+}
+.carousel-caption.caption_newslider {  
+    right: 4%;   
+    width: 246px;
+    padding: 17px 20px;
+}
+.footer-text {
+padding: 8px;
+}
+.btn-sec{
+padding: 6px;
+}
+button:focus {
+outline:none;
+outline: none;
+}
+.mobile-none{
+  display: none;
+}
+.simple-header{
+  padding: 0;
+}
+.contain-section{
+  /*padding: 0;*/
+}
+.faq-txt-section{
+  padding: 0px;
+}
+.faq-txt-heading {
+    font-size: 16px;   
+    padding: 6px 35px; 
+    text-align: center;   
+    line-height: 25px;
+}
+.faq-txt-section-p-txt{
+  font-size: 14px;
+  height: auto;
+}
+.image-icon {
+  float: right;
+    z-index: 2;
+    position: unset;
+  }
+  .text-section {
+    padding: 0;
+}
+
+.image-icon img {
+    height: 70px;
+}
+
+.truking-p-txt {
+    font-size: 14px;
+}
+.navbar-nav{
+  align-items: unset;
+}
+
+#trucking_slider .carousel-item{
+  min-height: auto !important;
+}
+.img-tab {
+    display: block;
+}
+.no-section{
+  padding: 0;
+}
+}
+
+@media only screen and (min-device-width : 400px) and (max-device-width : 1024px) 
 and (orientation : landscape) {
 
 .ph-no p {
@@ -112,20 +282,6 @@ font-size: 16px;
 }
 
 }
-/*@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) 
-and (orientation : landscape) {
-
-.logo-first {
-    
-    width: 15% !important;
-}
-  .logo-sec {
-  
-    width: 85% !important;
-}
-}*/
 
 @media only screen and (max-width: 676px) and (min-width: 320px)  {
 .mobile_no {
@@ -210,7 +366,7 @@ width: 65px;
     max-height: 57px;
     overflow: hidden;
     height: 100%;
-}	
+} 
 .no-text {
   padding: 6px 0;
     min-height: 19px;
@@ -643,163 +799,13 @@ padding: 0 10px;
   text-align: center;
     padding: 0 20px;
 }
-
+.slick-prev {
+    left: 3px!important;
 }
-@media only screen and (max-width: 1024px) and (min-width: 768px)  {
-.navbar-expand-md .navbar-nav .nav-link{
-padding-right:0;
-}
-.logo-section{
-width: 60%;
- overflow: hidden;
-
-}
-.logo-first {
-    float: left;
-       width: 20%;
-}
-.logo-sec{
-    float: right;
-    margin:0;
-       width: 80%;
-}
-.header-text{
-width: 40%;
-}
-.button-auth {
-     padding: 5px 10px 10px 10px;
- }
- .main-heading{
-margin: 0 0 5px;
-    padding: 0;
-    max-height: 100px;
-       min-height: 115px;
-    height: 100%;
-    font-size: 25px;
- }
- .truking-section{
-        padding: 20px 30px 20px 30px;
- }
- .temporary-section{
-    padding: 20px 15px 20px 15px;
-      
- }
-
- .footer-head{
-    padding: 4px 1px 7px 30px;
- }
- .footer-body{
-        padding: 4px 4px 7px 30px;
- }
- 
- .headewr-btn{
-    display: none !important;
- }
- .ucr-box-section .ucr-box{
-    margin-top: 15px;
- }
- .carousel-indicators {
-   display: none;
-}
-#video-fream {
-   width: 100%;
-   }
-.logo-sec img {
-    height: 73px;
-}
-.temp-img-section img {
-    position: absolute;
-    left: -15px;
-    height: 100px;
-    top: -11px;
-}
-.temporary-text-section {
-    width: 100%;
-    
-}
-.temporary-text-section {
-    width: 100%;
-    margin-left: 50px;
-}
-
-.no-text {
-     padding: 10px 0;
-    font-size: 12px;
-    max-height: 50px;
-    line-height: 19px;
-    overflow: hidden;
-}
-.carousel-caption.caption_newslider {  
-    right: 4%;   
-    width: 246px;
-    padding: 17px 20px;
-}
-.footer-text {
-padding: 8px;
-}
-.btn-sec{
-padding: 6px;
-}
-button:focus {
-outline:none;
-outline: none;
-}
-.mobile-none{
-  display: none;
-}
-.simple-header{
-  padding: 0;
-}
-.contain-section{
-  /*padding: 0;*/
-}
-.faq-txt-section{
-  padding: 0px;
-}
-.faq-txt-heading {
-    font-size: 16px;   
-    padding: 6px 35px; 
-    text-align: center;   
-    line-height: 25px;
-}
-.faq-txt-section-p-txt{
-  font-size: 14px;
-  height: auto;
-}
-.image-icon {
-  float: right;
-    z-index: 2;
-    position: unset;
-  }
-  .text-section {
-    padding: 0;
-}
-
-.image-icon img {
-    height: 70px;
-}
-
-.truking-p-txt {
-    font-size: 14px;
-}
-.navbar-nav{
-  align-items: unset;
-}
-
-#trucking_slider .carousel-item{
-  min-height: auto !important;
-}
-.img-tab {
-    display: block;
-}
-.no-section{
-  padding: 0;
+.slick-next {
+    right: 3px !important;
 }
 }
-
-
-
-
 
 
 
